@@ -1,0 +1,115 @@
+.nav-content {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-content ul {
+    align-self: flex-end;
+    display: flex;
+    justify-self: center
+}
+
+.nav-item {
+    display: flex;
+    height: 100%;
+    background-color: orange;
+    list-style: none;
+    transform: translateY(30px);
+}
+
+.nav-content ul li:nth-child(even) {
+    background: yellow;
+}
+
+.nav-item a {
+    display: block;
+    height: 100%;
+    padding: 40px 20px;
+    font-size: 22px;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    background-color: var(--orange);
+
+    box-sizing: content-box;
+    border-bottom: 20px solid transparent;
+    transition: transform .2s ease-out;
+}
+.nav-item a.active {
+    transform: translateY(-20px);
+}
+
+.nav-item:nth-child(2) a,
+.nav-item:nth-child(5) a {
+    background-color:  var(--green);;
+}
+
+.nav-item a:hover {   
+     transform: translateY(-20px);
+     background-color: var(--orange);     
+}
+.nav-item:nth-child(2) a:hover,
+.nav-item:nth-child(5) a:hover
+ {
+    background-color:  var(--green);;
+}
+
+.nav-item:nth-child(3) a {
+    background-color:  var(--red);;
+}
+
+.nav-item:nth-child(3) a:hover {
+    background-color:  var(--red);;
+}
+
+.nav-item:nth-child(4) a {
+    background-color:  var(--orange);;
+}
+
+.nav-item:nth-child(4) a:hover {
+    background-color:  var(--orange);;
+}
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.phone-in-nav{
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.phone-in-nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.phone-in-nav a img {
+    width: 16px;
+}
+
+.phone-in-nav a strong {
+    display: block;
+    margin-left: 10px;
+    font-size: 16px;
+    font-style: italic;
+}
