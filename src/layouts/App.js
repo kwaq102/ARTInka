@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import '../styles/App.css';
+import Footer from './Footer';
 import Navigation from './Navigation';
 
 class App extends Component {
@@ -15,7 +16,9 @@ class App extends Component {
           <div id="page">
             Tutaj będą różne zmieniające się strony, moze w sekcjach
           </div>
-          <footer id='footer'>STOPKA</footer>
+          <footer id='footer'>
+            <Footer />
+          </footer>
         </div>
       </Router>
     );

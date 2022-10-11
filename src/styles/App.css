@@ -20,6 +20,6 @@
 #page{}
 
 #footer {
-    height: 250px;
-    background-color: blue;
+    padding: 20px 0;
+    background-color: var(--blue);
 }

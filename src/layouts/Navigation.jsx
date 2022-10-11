@@ -1,19 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import phone from '../imgs/icons/phone-solid.svg';
+import {navList} from '../data/data.js'
 
 import logo from '../imgs/logo.png'
-// import logo2 from '../imgs/logo_fb.svg'
 
 import '../styles/Navigation.css'
 
-const navList = [
-    {navName: 'Start', path: '/', end:true},
-    {navName: 'Animacje', path: '/stanowiska-animacyjne'},
-    {navName: 'Galeria', path: '/galeria'},
-    {navName: 'Cennik', path: '/cennik'},
-    {navName: 'Kontakt', path: '/kontakt'},
-]
 
 const Navigation = () => {
 
