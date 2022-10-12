@@ -3,6 +3,7 @@
     --green: #00b894;
     --red: #d63031;
     --blue: #15c1e5;
+    /* --blue: #a29bfe; */
     --darkBlue: #0984e3;
     --liliowy: #a29bfe;
     --mietowy: #55efc4;
@@ -23,5 +24,6 @@
   }
 
   html {
+    font-size: 16px;
     font-family: 'Lato', arial, sans-serif;
   }

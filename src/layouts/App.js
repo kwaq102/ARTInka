@@ -4,6 +4,7 @@ import '../styles/App.css';
 import Footer from './Footer';
 import Navigation from './Navigation';
 import Header from './Header';
+import Pages from './Pages';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
             <Header />
           </header>
           <div id="page">
-            Tutaj będą różne zmieniające się strony, moze w sekcjach
+            <Pages />
           </div>
           <footer id='footer'>
             <Footer />
