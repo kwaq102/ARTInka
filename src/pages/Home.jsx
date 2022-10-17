@@ -1,6 +1,8 @@
 import React from 'react';
 
 import AboutInHomePage from '../components/AboutInHomePage';
+import Services from '../components/Services';
+import Advantages from '../components/Advantages';
 
 const Home = () => {
     return ( 
@@ -8,15 +10,9 @@ const Home = () => {
             <div className="home-page">
                 
                 <AboutInHomePage/>
-                <secion>
-                    WItaj na naszej stronie albo zakłądka o mnie
-                </secion>
-                <section>
-                    COś o eventach
-                </section>
-                <section>
-                    o justnie
-                </section>
+                <Services />
+                <Advantages />
+
             </div>
         </>
      );

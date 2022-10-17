@@ -2,7 +2,7 @@ import bubbles from '../imgs/bubbles.jpg';
 import bubbles2 from '../imgs/bubbles2.jpg';
 import painting  from '../imgs/painting.jpeg';
 import paintingOnStreet from '../imgs/paintingOnStreet.jpg';
-import playing from '../imgs/playing.jpg';
+import tattoos from '../imgs/kidsTattoo.jpg';
 
 export const navList = [
     {navName: 'Start', path: '/', end:true},
@@ -15,27 +15,28 @@ export const navList = [
 export const photosOnSlider = [
     {
         id: 0,
-        title: "Bański mydlane",
-        photo: bubbles,
+        title: "Tatuaże na rękach dzieci",
+        photo: tattoos,
+
     },
     {
         id: 1,
-        title: "Bański mydlane",
-        photo: bubbles2,
+        title: "Rysowanie twarzy",
+        photo: painting,
     },
     {
         id: 2,
         title: "Bański mydlane",
-        photo: painting,
+        photo: bubbles2,
     },
     {
         id: 3,
-        title: "Bański mydlane",
+        title: "Malowanie ulicy",
         photo: paintingOnStreet,
     },
     {
         id: 4,
         title: "Bański mydlane",
-        photo: playing,
+        photo: bubbles,
     },
 ]

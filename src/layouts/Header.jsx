@@ -25,7 +25,7 @@ const Header = () => {
     return ( 
         <div className="header">
             <h1>
-                <strong>Animacje dla dzieci</strong>
+                <strong>Artystyczne malowanie twarzy</strong>
                 <strong>ARTinka - Justyna Baran</strong>
             </h1>
             <Slider {...settings}>
