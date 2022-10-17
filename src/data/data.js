@@ -1,7 +1,7 @@
 import bubbles from '../imgs/bubbles.jpg';
-import bubbles2 from '../imgs/bubbles2.jpg';
+import paintingFace3 from '../imgs/paintingFace3.jpg';
 import painting  from '../imgs/painting.jpeg';
-import paintingOnStreet from '../imgs/paintingOnStreet.jpg';
+import paintFace4 from '../imgs/paintFace4.jpg';
 import tattoos from '../imgs/kidsTattoo.jpg';
 
 export const navList = [
@@ -27,12 +27,12 @@ export const photosOnSlider = [
     {
         id: 2,
         title: "Bański mydlane",
-        photo: bubbles2,
+        photo: paintingFace3,
     },
     {
         id: 3,
         title: "Malowanie ulicy",
-        photo: paintingOnStreet,
+        photo: paintFace4,
     },
     {
         id: 4,
