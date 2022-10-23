@@ -18,7 +18,10 @@
     margin-top: 150px;
 }
 
-#page{}
+#page{
+    position: relative;
+    margin-top: -4px;
+}
 
 #footer {
     padding: 20px 0;

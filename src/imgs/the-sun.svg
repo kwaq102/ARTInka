@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 744.09 1052.4" xmlns="http://www.w3.org/2000/svg">
+ <rect x="-200" y="12.362" width="400" height="400" fill="#ff8080" opacity=".5"/>
+ <rect transform="matrix(.97815 -.20791 .20791 .97815 0 0)" x="-281.36" y="-38.231" width="400" height="400" fill="#de8787" opacity=".5"/>
+ <rect transform="matrix(.91355 -.40674 .40674 .91355 0 0)" x="-350.43" y="-104.64" width="400" height="400" fill="#ffb380" opacity=".5"/>
+ <rect transform="matrix(.80902 -.58779 .58779 .80902 0 0)" x="-404.18" y="-183.95" width="400" height="400" fill="#deaa87" opacity=".5"/>
+ <rect transform="matrix(.66913 -.74314 .74314 .66913 0 0)" x="-440.27" y="-272.7" width="400" height="400" fill="#ffe680" opacity=".5"/>
+ <rect transform="matrix(.5 -.86603 .86603 .5 0 0)" x="-457.12" y="-367.02" width="400" height="400" fill="#decd87" opacity=".5"/>
+ <rect transform="matrix(.30902 -.95106 .95106 .30902 0 0)" x="-453.98" y="-462.78" width="400" height="400" fill="#e5ff80" opacity=".5"/>
+ <rect transform="matrix(.10453 -.99452 .99452 .10453 0 0)" x="-431.01" y="-555.8" width="400" height="400" fill="#cdde87" opacity=".5"/>
+ <rect transform="matrix(-.10453 -.99452 .99452 -.10453 0 0)" x="-389.2" y="-642.01" width="400" height="400" fill="#b3ff80" opacity=".5"/>
+ <rect transform="matrix(-.30902 -.95106 .95106 -.30902 0 0)" x="-330.38" y="-717.64" width="400" height="400" fill="#aade87" opacity=".5"/>
+ <rect transform="matrix(-.5 -.86603 .86603 -.5 0 0)" x="-257.12" y="-779.39" width="400" height="400" fill="#80ff80" opacity=".5"/>
+ <rect transform="matrix(-.66913 -.74314 .74314 -.66913 0 0)" x="-172.62" y="-824.55" width="400" height="400" fill="#87de87" opacity=".5"/>
+ <rect transform="matrix(-.80902 -.58779 .58779 -.80902 0 0)" x="-80.577" y="-851.16" width="400" height="400" fill="#80ffb3" opacity=".5"/>
+ <rect transform="matrix(-.91355 -.40674 .40674 -.91355 0 0)" x="14.986" y="-858.06" width="400" height="400" fill="#87deaa" opacity=".5"/>
+ <rect transform="matrix(-.97815 -.20791 .20791 -.97815 0 0)" x="109.89" y="-844.93" width="400" height="400" fill="#80ffe6" opacity=".5"/>
+ <rect transform="scale(-1)" x="200" y="-812.36" width="400" height="400" fill="#87decd" opacity=".5"/>
+ <rect transform="matrix(-.97815 .20791 -.20791 -.97815 0 0)" x="281.36" y="-761.77" width="400" height="400" fill="#80e5ff" opacity=".5"/>
+ <rect transform="matrix(-.91355 .40674 -.40674 -.91355 0 0)" x="350.43" y="-695.36" width="400" height="400" fill="#87cdde" opacity=".5"/>
+ <rect transform="matrix(-.80902 .58779 -.58779 -.80902 0 0)" x="404.18" y="-616.05" width="400" height="400" fill="#80b3ff" opacity=".5"/>
+ <rect transform="matrix(-.66913 .74314 -.74314 -.66913 0 0)" x="440.27" y="-527.3" width="400" height="400" fill="#87aade" opacity=".5"/>
+ <rect transform="matrix(-.5 .86603 -.86603 -.5 0 0)" x="457.12" y="-432.98" width="400" height="400" fill="#8080ff" opacity=".5"/>
+ <rect transform="matrix(-.30902 .95106 -.95106 -.30902 0 0)" x="453.98" y="-337.22" width="400" height="400" fill="#8787de" opacity=".5"/>
+ <rect transform="matrix(-.10453 .99452 -.99452 -.10453 0 0)" x="431.01" y="-244.2" width="400" height="400" fill="#b380ff" opacity=".5"/>
+ <rect transform="matrix(.10453 .99452 -.99452 .10453 0 0)" x="389.2" y="-157.99" width="400" height="400" fill="#aa87de" opacity=".5"/>
+ <rect transform="matrix(.30902 .95106 -.95106 .30902 0 0)" x="330.38" y="-82.362" width="400" height="400" fill="#e580ff" opacity=".5"/>
+ <rect transform="matrix(.5 .86603 -.86603 .5 0 0)" x="257.12" y="-20.614" width="400" height="400" fill="#cd87de" opacity=".5"/>
+ <rect transform="matrix(.66913 .74314 -.74314 .66913 0 0)" x="172.62" y="24.553" width="400" height="400" fill="#ff80e5" opacity=".5"/>
+ <rect transform="matrix(.80902 .58779 -.58779 .80902 0 0)" x="80.577" y="51.165" width="400" height="400" fill="#de87cd" opacity=".5"/>
+ <rect transform="matrix(.91355 .40674 -.40674 .91355 0 0)" x="-14.986" y="58.059" width="400" height="400" fill="#ff80b2" opacity=".5"/>
+ <rect transform="matrix(.97815 .20791 -.20791 .97815 0 0)" x="-109.89" y="44.933" width="400" height="400" fill="#de87aa" opacity=".5"/>
+</svg>
