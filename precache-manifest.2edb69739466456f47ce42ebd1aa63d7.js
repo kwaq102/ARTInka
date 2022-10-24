@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "08d45cfdcf35f435c71e",
+    "revision": "557285c455f9b75515b9",
     "url": "/ARTInka/static/css/main.517ad1a5.chunk.css"
   },
   {
-    "revision": "08d45cfdcf35f435c71e",
-    "url": "/ARTInka/static/js/main.f67eba5d.chunk.js"
+    "revision": "557285c455f9b75515b9",
+    "url": "/ARTInka/static/js/main.dbb91169.chunk.js"
   },
   {
     "revision": "c0a2046deaff95fc490d",
@@ -328,7 +328,7 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/the-sun.8d859cce.png"
   },
   {
-    "revision": "6a479ea6e3dcdda99a7d1d9fdde3a6c3",
+    "revision": "353fd2ea9deff98e94c808173553fef5",
     "url": "/ARTInka/index.html"
   }
 ];
