@@ -103,6 +103,3 @@ export const animationList = [
     },
 ]
 
-export const certificates =[];
-
-

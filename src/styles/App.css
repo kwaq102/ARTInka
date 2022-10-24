@@ -8,13 +8,12 @@
     left: 0;
     width: 100%;
     height: 150px;
-    background-color: var(--blue);
+    background: var(--blueGradient);
     z-index: 6;
 }
 
 #header {
     width: 100%;
-    /* height: 1000px; */
     margin-top: 150px;
 }
 

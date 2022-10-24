@@ -1,7 +1,7 @@
 .page-animations{
     width: 100%;
-    background-color: var(--green);
-    padding: 100px 0;
+    background: var(--greenGradient);
+    padding: 50px 0 100px 0;
 }
 
 .animations {
@@ -10,6 +10,15 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.animations h2 {
+    width: 100%;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 100px;
+    color: white;
+    font-family: 'Tangerine', cursive;  
 }
 
 .content-animation-box {

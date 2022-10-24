@@ -3,8 +3,6 @@ import React, {useState} from 'react';
 import {photos} from '../data/gallery.js';
 
 import Popup from '../components/Popup';
-
-// import '../styles/Modal.css'
 import '../styles/Gallery.css'
 
 const Gallery = () => {
@@ -60,9 +58,6 @@ const Gallery = () => {
             />
         </div>
     ));
-
-    console.log(clickedImg);
-
 
     return ( 
         <div className="page-gallery">

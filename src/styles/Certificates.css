@@ -1,0 +1,43 @@
+.certificates {
+    background: var(--greenGradient);
+}
+
+.certificates-wrapper {
+    width: var(--widthContent);
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
+
+.certificates-wrapper h2 {
+    width: 100%;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Tangerine', cursive; }
+
+.certificates-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.certificate-box {
+    width: 200px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+.certificate-box img {
+    width: 100%;
+    border-radius: 10px;
+
+    transition: all .2s linear;
+}
+
+.certificate-box img:hover {
+    transform: perspective(900px) rotateY(35deg);
+}

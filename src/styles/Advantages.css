@@ -1,6 +1,6 @@
 .advantages {
     padding: 50px 0;
-    background-color: var(--orange);
+    background: var(--orangeGradient);
     color: white;
 }
 
@@ -26,7 +26,6 @@
 .advantage-box {
     flex-basis: 25%;
     text-align: center;
-
 }
 
 .advantage-box img {

@@ -1,9 +1,12 @@
 :root {
-    --orange: #e17055;
-    --green: #00b894;
-    --red: #d63031;
-    --blue: #15c1e5;
-    /* --blue: #a29bfe; */
+    --orange: #ff9e5f;
+    --orangeGradient: radial-gradient(circle at 50% 50%, #e68f55, #ea9156, #ed9358, #f19559, #f4985b, #f89a5c, #fb9c5e, #ff9e5f);
+    --green: #82b334;
+    --greenGradient: radial-gradient(circle at 50% 50%, #82b334, #91c63c);
+    --red: #FF8B94;
+    --redGradient: radial-gradient(circle at 50% 50%, #e67e87, #ff8b94);
+    --blue: #64B5F6;
+    --blueGradient:radial-gradient(circle at 40% 50%, #5aa1db, #64b5f6);
     --darkBlue: #0984e3;
     --liliowy: #a29bfe;
     --mietowy: #55efc4;

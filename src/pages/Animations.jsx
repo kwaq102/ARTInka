@@ -21,6 +21,7 @@ const Animations = () => {
     return ( 
         <div className='page-animations'>
             <section className="animations">
+                <h2>W ofercie</h2>
                 {list}
             </section>
         </div>
