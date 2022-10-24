@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ARTInka/precache-manifest.ce6ccef1e3d0c41697b26970737318b2.js"
+  "/ARTInka/precache-manifest.b44145896713e339c227e339ca06be15.js"
 );
 
 workbox.clientsClaim();
