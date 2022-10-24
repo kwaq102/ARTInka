@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4cecf6209e437bc81301",
+    "revision": "aa6c83625252a8d0f4c2",
     "url": "/ARTInka/static/css/main.517ad1a5.chunk.css"
   },
   {
-    "revision": "4cecf6209e437bc81301",
-    "url": "/ARTInka/static/js/main.551baf54.chunk.js"
+    "revision": "aa6c83625252a8d0f4c2",
+    "url": "/ARTInka/static/js/main.1c764bc3.chunk.js"
   },
   {
     "revision": "c0a2046deaff95fc490d",
@@ -308,16 +308,16 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/phone-solid-white.be124f02.svg"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/ARTInka/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/ARTInka/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/ARTInka/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/ARTInka/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -328,7 +328,7 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/the-sun.8d859cce.png"
   },
   {
-    "revision": "950c584116c751795b54d92e46670902",
+    "revision": "2465c8dbd5017517702cbde3cc82bda2",
     "url": "/ARTInka/index.html"
   }
 ];
