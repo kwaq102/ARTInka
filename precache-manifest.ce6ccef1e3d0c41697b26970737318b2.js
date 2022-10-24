@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "41ad59968b5a2dae54d9",
+    "revision": "4cecf6209e437bc81301",
     "url": "/ARTInka/static/css/main.517ad1a5.chunk.css"
   },
   {
-    "revision": "41ad59968b5a2dae54d9",
-    "url": "/ARTInka/static/js/main.503006e5.chunk.js"
+    "revision": "4cecf6209e437bc81301",
+    "url": "/ARTInka/static/js/main.551baf54.chunk.js"
   },
   {
     "revision": "c0a2046deaff95fc490d",
@@ -316,19 +316,19 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/ARTInka/static/media/slick.f97e3bbf.svg"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/ARTInka/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/ARTInka/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "8d859cce2ebb159f8a09538aea93145a",
     "url": "/ARTInka/static/media/the-sun.8d859cce.png"
   },
   {
-    "revision": "d439545554741b5e509a205d0eebb5fb",
+    "revision": "950c584116c751795b54d92e46670902",
     "url": "/ARTInka/index.html"
   }
 ];
