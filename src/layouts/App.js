@@ -9,7 +9,7 @@ import Pages from './Pages';
 class App extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={process.env.PUBLIC_URL + '/'}>
         <div className="app">
           <nav id='nav'>
             <Navigation />
