@@ -1,36 +1,56 @@
 :root {
-    --orange: #ff9e5f;
-    --orangeGradient: radial-gradient(circle at 50% 50%, #e68f55, #ea9156, #ed9358, #f19559, #f4985b, #f89a5c, #fb9c5e, #ff9e5f);
-    --green: #82b334;
-    --greenGradient: radial-gradient(circle at 50% 50%, #82b334, #91c63c);
-    --red: #FF8B94;
-    --redGradient: radial-gradient(circle at 50% 50%, #e67e87, #ff8b94);
-    --blue: #64B5F6;
-    --blueGradient:radial-gradient(circle at 40% 50%, #5aa1db, #64b5f6);
-    --darkBlue: #0984e3;
-    --liliowy: #a29bfe;
-    --mietowy: #55efc4;
-    --brzuskwiniowy: #fdcb6e;
-    --turkusowyDark: #00cec9;
-    --turkusowyLight: #81ecec;
+	--orange: #ff9e5f;
+	--orangeGradient: radial-gradient(
+		circle at 50% 50%,
+		#e68f55,
+		#ea9156,
+		#ed9358,
+		#f19559,
+		#f4985b,
+		#f89a5c,
+		#fb9c5e,
+		#ff9e5f
+	);
+	--green: #82b334;
+	--greenGradient: radial-gradient(circle at 50% 50%, #82b334, #91c63c);
+	--red: #ff8b94;
+	--redGradient: radial-gradient(circle at 50% 50%, #e67e87, #ff8b94);
+	--blue: #64b5f6;
+	--blueGradient: radial-gradient(circle at 40% 50%, #5aa1db, #64b5f6);
+	--darkBlue: #0984e3;
+	--liliowy: #a29bfe;
+	--mietowy: #55efc4;
+	--brzuskwiniowy: #fdcb6e;
+	--turkusowyDark: #00cec9;
+	--turkusowyLight: #81ecec;
 
-    --widthContent: 1200px;
-    
-  }
+	--widthContent: 1200px;
 
-  /* https://flatuicolors.com/palette/us */
+	--shadowText: 1px 1px 1px #000;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+/* https://flatuicolors.com/palette/us */
 
-  html {
-    font-size: 16px;
-    font-family: 'Lato', arial, sans-serif;
-  }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-  strong {
-    font-weight: normal;
-  }
+html {
+	font-size: 16px;
+	font-family: "Lato", arial, sans-serif;
+}
+
+strong {
+	font-weight: normal;
+}
+
+.heading {
+	width: 100%;
+	font-weight: 900;
+	font-size: 100px;
+	color: white;
+	font-family: "Tangerine", cursive;
+	text-shadow: var(--shadowText);
+}

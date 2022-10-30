@@ -1,80 +1,81 @@
-.page-animations{
-    width: 100%;
-    background: var(--greenGradient);
-    padding: 50px 0 100px 0;
+.page-animations {
+	width: 100%;
+	background: var(--redGradient);
+	padding: 50px 0 100px 0;
 }
 
 .animations {
-    width: var(--widthContent);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+	width: var(--widthContent);
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 .animations h2 {
-    width: 100%;
-    margin-bottom: 50px;
-    font-weight: 900;
-    font-size: 100px;
-    color: white;
-    font-family: 'Tangerine', cursive;  
+	width: 100%;
+	margin-bottom: 50px;
+	font-weight: 900;
+	font-size: 100px;
+	color: white;
+	font-family: "Tangerine", cursive;
+	text-shadow: var(--shadowText);
 }
 
 .content-animation-box {
-    width: 30%;
-    margin-bottom: 20px;
-    text-align: center;
-    color: white;
+	width: 30%;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
 }
 
 .animation-img-wrapper {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    background-image: url('../imgs/the-sun.png');
-    background-repeat: no-repeat;
-    background-size: 250px 250px;
-    transition: transform .5s linear;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	background-image: url("../imgs/the-sun.png");
+	background-repeat: no-repeat;
+	background-size: 250px 250px;
+	transition: transform 0.5s linear;
 }
 
 .animation-img-wrapper:hover {
-    transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 .animation-img-wrapper:hover div img {
-    transform: rotate(-90deg);
+	transform: rotate(-90deg);
 }
 
 .animation-img-wrapper div {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all .2s linear;
-    cursor: pointer;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s linear;
+	cursor: pointer;
 }
 
 .animation-img-wrapper div img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    transition: transform .5s linear;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	transition: transform 0.5s linear;
 }
 
 .content-animation-box h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 28px;
-    letter-spacing: 2px;
-    font-weight: 300;
-    text-shadow: 1px 1px 1px #000;    
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 28px;
+	letter-spacing: 2px;
+	font-weight: 300;
+	text-shadow: 1px 1px 1px #000;
 }
 
 .content-animation-box p {
-    line-height: 130%;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-style: italic;
+	line-height: 130%;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-style: italic;
 }
