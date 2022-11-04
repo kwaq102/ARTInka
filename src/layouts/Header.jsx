@@ -1,38 +1,45 @@
-import React from 'react';
+import React from "react";
 
-import { photosOnSlider } from '../data/data';
+import { photosOnSlider } from "../data/data";
 
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import '../styles/Header.css'
+import "../styles/Header.css";
+import { Fade } from "react-awesome-reveal/dist/index.js";
 
 const Header = () => {
-    const settings = {
-        autoplay: true,
-        autoplaySpeed: 10000,
-        speed: 3000,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+	const settings = {
+		autoplay: true,
+		autoplaySpeed: 10000,
+		speed: 3000,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		initialSlide: 0,
+	};
 
-    const photos = photosOnSlider.map(photo => (
-        <img class="img-slider" src={photo.photo} alt= {photo.title}/>
-    ))
+	const photos = photosOnSlider.map((photo) => (
+		<img class="img-slider" src={photo.photo} alt={photo.title} />
+	));
 
-    return ( 
-        <div className="header">
-            <h1>
-                <strong>Artystyczne malowanie twarzy</strong>
-                <strong>ARTinka - Justyna Baran</strong>
-            </h1>
-            <Slider {...settings}>
-                {photos}
-           </Slider>
-        </div>
-     );
-}
- 
+	return (
+		<header id="header">
+			<div className="header">
+				<h1>
+					<Fade cascade direction="up">
+						<strong>Artystyczne malowanie twarzy</strong>
+						<strong>ARTinka - Justyna Baran</strong>
+					</Fade>
+				</h1>
+
+				<Fade>
+					<Slider {...settings}>{photos}</Slider>
+				</Fade>
+			</div>
+		</header>
+	);
+};
+
 export default Header;

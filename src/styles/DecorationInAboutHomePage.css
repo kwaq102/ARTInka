@@ -1,0 +1,52 @@
+.wrapper-decorations {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.wrap-img {
+	position: absolute;
+}
+.wrap-img img {
+	display: block;
+	width: 100%;
+}
+
+.starPink {
+	width: 50px;
+	top: 0%;
+	left: 50%;
+	transform: rotate(0);
+
+	z-index: 5;
+}
+
+.starPink img {
+	animation: rotate 15s linear infinite;
+}
+
+.butterflyOpacity {
+	width: 150px;
+	z-index: 5;
+	top: -5%;
+	left: 12%;
+}
+
+.flower {
+	width: 150px;
+	z-index: 5;
+	bottom: 18%;
+	right: 7%;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

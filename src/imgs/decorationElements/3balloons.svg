@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 226 585" version="1.1" viewBox="0 0 226 585">
+			<radialGradient id="d" cx="82.205" cy="106.55" r="74.524" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#959ECF" offset=".0769"/>
+				<stop stop-color="#7C68AE" offset=".4914"/>
+				<stop stop-color="#6C3E98" offset=".8369"/>
+				<stop stop-color="#662D91" offset="1"/>
+			</radialGradient>
+			<path d="m141.08 97.633c0 43.353-24.572 96.338-57.088 96.338-32.515 0-60.657-52.985-60.657-96.338s26.359-78.497 58.873-78.497c32.515 0 58.872 35.144 58.872 78.497z" fill="url(#d)"/>
+			<polygon points="83.989 193.97 77.746 203.78 96.478 204.67 90.233 192.19" fill="#662D91"/>
+		<path d="m82.177 194.7s7.498 1.764 9.703-1.765c0 0-9.703 12.35-6.175 33.521 3.529 21.172 9.263 25.582 2.646 41.901-6.616 16.321-8.821 38.814 2.205 52.486" fill="none" stroke="#221C12"/>
+			<radialGradient id="e" cx="152.97" cy="238.5" r="74.524" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#F8C1D9" offset=".0769"/>
+				<stop stop-color="#F17BB0" offset=".5172"/>
+				<stop stop-color="#EE3B96" offset=".8451"/>
+				<stop stop-color="#EC008C" offset="1"/>
+			</radialGradient>
+			<path d="m211.85 229.58c0 43.354-24.573 96.335-57.089 96.335-32.515 0-60.657-52.982-60.657-96.335 0-43.352 26.359-78.497 58.872-78.497 32.516 0 58.874 35.145 58.874 78.497z" fill="url(#e)"/>
+			<polygon points="154.76 325.91 148.51 335.73 167.24 336.62 161 324.13" fill="#EC008C"/>
+		<path d="m154.74 325.12s7.499 1.764 9.704-1.765c0 0-9.704 12.351-6.176 33.521 3.53 21.172 9.264 25.581 2.647 41.902-6.616 16.319-8.822 38.812 2.205 52.485" fill="none" stroke="#221C12"/>
+			<radialGradient id="f" cx="88.669" cy="358.67" r="74.524" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#8DC63F" offset=".0769"/>
+				<stop stop-color="#89C33F" offset=".1091"/>
+				<stop stop-color="#3C9F44" offset=".7131"/>
+				<stop stop-color="#009444" offset="1"/>
+			</radialGradient>
+			<path d="m147.54 349.76c0 43.353-24.572 96.334-57.088 96.334-32.515 0-60.658-52.981-60.658-96.334 0-43.354 26.359-78.498 58.873-78.498 32.516 0 58.873 35.144 58.873 78.498z" fill="url(#f)"/>
+			<polygon points="90.454 446.09 84.21 455.9 102.94 456.8 96.698 444.31" fill="#009444"/>
+			<path d="m88.877 446.21s7.498 1.766 9.704-1.764c0 0-9.704 12.351-6.175 33.521 3.529 21.171 9.263 25.582 2.647 41.901-6.617 16.321-8.821 38.814 2.205 52.488" fill="none" stroke="#221C12"/>
+</svg>

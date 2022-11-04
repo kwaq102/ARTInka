@@ -1,92 +1,93 @@
 .services {
-    padding: 100px 0;
-    background: var(--redGradient);
+	padding: 100px 0;
+	background: var(--redGradient);
+	position: relative;
 }
 
 .wrapper-services {
-    width: var(--widthContent);
-    margin: 10px auto 50px auto;
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
+	width: var(--widthContent);
+	margin: 10px auto 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
 }
 
 .reverse {
-    flex-direction: row-reverse;
+	flex-direction: row-reverse;
 }
 
 /* CONTNENT SERVICES */
 
-.content-services{
-    width: 50%;
+.content-services {
+	width: 50%;
 }
 
 .content-services h2 {
-    margin-bottom: 25px;
-    font-weight: 900;
-    font-size: 100px;
-    font-family: 'Tangerine', cursive;
+	margin-bottom: 25px;
+	font-weight: 900;
+	font-size: 100px;
+	font-family: "Tangerine", cursive;
 }
 
 .content-services div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .content-services div p {
-    width: 100%;
-    font-size: 18px;
+	width: 100%;
+	font-size: 18px;
 }
 
 /* OFFER LIST */
 
 .content-services div ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    margin: 5px 0 20px 0;
-    line-height: 150%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	margin: 5px 0 20px 0;
+	line-height: 150%;
 }
 
 .content-services div ul li {
-    min-width: 30%;
-    margin-right: 20px;
-    list-style: none;   
-    font-size: 18px;
-    font-style: italic;
+	min-width: 30%;
+	margin-right: 20px;
+	list-style: none;
+	font-size: 18px;
+	font-style: italic;
 }
 
 .content-services div .list li {
-    width: 100%;
+	width: 100%;
 }
 
 /* PHOTO */
 
 .photos-services {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-self: center;
 }
 
 .photos-services img {
-    display: block;
-    width: 80%;
-    box-shadow: -10px -10px 60px 2px black;
+	display: block;
+	width: 80%;
+	box-shadow: -10px -10px 60px 2px black;
 }
 
-.photos-services .left-img{ 
-    box-shadow: 10px 10px 60px 2px black;
+.photos-services .left-img {
+	box-shadow: 10px 10px 60px 2px black;
 }
 
 .wrapper-services .text {
-    width: 100%;
-    font-size: 28px;
-    letter-spacing: 2px;
-    text-align: center;
+	width: 100%;
+	font-size: 28px;
+	letter-spacing: 2px;
+	text-align: center;
 }
 
 .wrapper-services .text:nth-of-type(1) {
-    margin-top: 90px;
+	margin-top: 90px;
 }
