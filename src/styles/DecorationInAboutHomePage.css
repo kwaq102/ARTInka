@@ -13,10 +13,9 @@
 
 .starPink {
 	width: 50px;
-	top: 0%;
+	top: 6%;
 	left: 50%;
 	transform: rotate(0);
-
 	z-index: 5;
 }
 
@@ -27,14 +26,14 @@
 .butterflyOpacity {
 	width: 150px;
 	z-index: 5;
-	top: -5%;
+	top: 5%;
 	left: 12%;
 }
 
 .flower {
 	width: 150px;
 	z-index: 5;
-	bottom: 18%;
+	bottom: 8%;
 	right: 7%;
 }
 

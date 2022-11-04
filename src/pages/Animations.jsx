@@ -3,6 +3,8 @@ import React from "react";
 import { animationList } from "../data/data";
 import Header from "../layouts/Header";
 
+import DecorationInAnimationsPage from "../components/decorationsComponents/DecorationInAnimationsPage";
+
 import "../styles/Animations.css";
 
 const Animations = () => {
@@ -21,12 +23,12 @@ const Animations = () => {
 	return (
 		<>
 			<Header />
-
 			<div className="page-animations">
 				<section className="animations">
 					<h2>W ofercie</h2>
 					{list}
 				</section>
+				<DecorationInAnimationsPage />
 			</div>
 		</>
 	);

@@ -13,28 +13,28 @@
 
 .smilingSun {
 	width: 120px;
-	top: -100px;
+	top: -50px;
 	left: 15%;
 	z-index: 2;
 }
 
 .smilingCloud {
 	width: 120px;
-	top: -20px;
+	top: 20px;
 	right: 10%;
 	z-index: 3;
 	animation: fly3 30s linear infinite alternate;
 }
 .blueCloud2 {
 	width: 120px;
-	top: 40px;
+	top: 60px;
 	left: 5%;
 	z-index: 4;
 	animation: fly2 35s linear infinite alternate;
 }
 .blueCloud {
 	width: 120px;
-	top: -40px;
+	top: -10px;
 	left: 8%;
 	z-index: 3;
 	animation: fly 25s 1s linear infinite alternate;

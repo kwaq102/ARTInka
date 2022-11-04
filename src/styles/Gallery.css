@@ -33,6 +33,7 @@
 	width: 100%;
 	cursor: pointer;
 	transition: transform 0.2s linear;
+	/* border: 4px solid var(--red); */
 }
 
 .wrapper-img img:hover {

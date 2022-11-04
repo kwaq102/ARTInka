@@ -2,6 +2,7 @@
 	width: 100%;
 	background: var(--redGradient);
 	padding: 50px 0 100px 0;
+	position: relative;
 }
 
 .animations {
