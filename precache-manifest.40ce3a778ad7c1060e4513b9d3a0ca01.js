@@ -1,27 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "4cecf6209e437bc81301",
-    "url": "/ARTInka/static/css/main.517ad1a5.chunk.css"
+    "revision": "83c7c89f431c20cf93dc",
+    "url": "/ARTInka/static/css/main.0b7742a7.chunk.css"
   },
   {
-    "revision": "4cecf6209e437bc81301",
-    "url": "/ARTInka/static/js/main.551baf54.chunk.js"
+    "revision": "83c7c89f431c20cf93dc",
+    "url": "/ARTInka/static/js/main.c6346216.chunk.js"
   },
   {
     "revision": "c0a2046deaff95fc490d",
     "url": "/ARTInka/static/js/runtime~main.c1515914.js"
   },
   {
-    "revision": "26eab7f19066f71bd17b",
+    "revision": "99719f4a08935e436128",
     "url": "/ARTInka/static/css/2.2057f23f.chunk.css"
   },
   {
-    "revision": "26eab7f19066f71bd17b",
-    "url": "/ARTInka/static/js/2.9ad73d20.chunk.js"
+    "revision": "99719f4a08935e436128",
+    "url": "/ARTInka/static/js/2.0ff5b8cf.chunk.js"
+  },
+  {
+    "revision": "0102b1585905d0d92ebe032a878b23ef",
+    "url": "/ARTInka/static/media/starPink.0102b158.png"
   },
   {
     "revision": "81e0d57b6e754dc36c6559a39011b69f",
     "url": "/ARTInka/static/media/logo.81e0d57b.png"
+  },
+  {
+    "revision": "d9a64abcb7eb181dacc549258dc5c70b",
+    "url": "/ARTInka/static/media/blueStar.d9a64abc.png"
+  },
+  {
+    "revision": "ce49d36414fb5161f63c1ab8a11dfb52",
+    "url": "/ARTInka/static/media/starOrange.ce49d364.png"
   },
   {
     "revision": "a267bf79bc7fe1d7ba5b3ebc9ef5e9d7",
@@ -78,6 +90,14 @@ self.__precacheManifest = [
   {
     "revision": "27ded1fe4add9e821ce4ffc946de0f3d",
     "url": "/ARTInka/static/media/phone-solid.27ded1fe.svg"
+  },
+  {
+    "revision": "983239b13004e34b9cddad6edfa0c4f4",
+    "url": "/ARTInka/static/media/rainbow.983239b1.png"
+  },
+  {
+    "revision": "52995d465cb3ea6a1d43d58f5bea4803",
+    "url": "/ARTInka/static/media/yellowStar.52995d46.png"
   },
   {
     "revision": "da9681b2c7a31ddfd3dce82eb913b60a",
@@ -232,6 +252,22 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/gallery19_w300.cbb4091c.jpg"
   },
   {
+    "revision": "d05e8d8dd9d1d712ebfd7368f5698e15",
+    "url": "/ARTInka/static/media/phone-call.d05e8d8d.svg"
+  },
+  {
+    "revision": "d7ffd9abb7683eb9e6dbe88356a3f694",
+    "url": "/ARTInka/static/media/mail.d7ffd9ab.svg"
+  },
+  {
+    "revision": "00fa69cbd77e827407da89092501ddfc",
+    "url": "/ARTInka/static/media/social.00fa69cb.svg"
+  },
+  {
+    "revision": "605da63004aa49f4072f7e52e34586d3",
+    "url": "/ARTInka/static/media/kidsContact.605da630.jpg"
+  },
+  {
     "revision": "cd9e3af5477451f65b2814746e9bb3c1",
     "url": "/ARTInka/static/media/justyna.cd9e3af5.jpg"
   },
@@ -244,12 +280,32 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/justyna3.f247493c.jpg"
   },
   {
+    "revision": "d2ce319e558288c5b1e845967d7cd7ab",
+    "url": "/ARTInka/static/media/butterflyOpacity.d2ce319e.png"
+  },
+  {
+    "revision": "964f4681c0e0596a15c67172a202ad7b",
+    "url": "/ARTInka/static/media/flowerAndButterfly.964f4681.png"
+  },
+  {
     "revision": "b48ea62b740fd615652e73df3dda6956",
     "url": "/ARTInka/static/media/paintFace2.b48ea62b.jpg"
   },
   {
     "revision": "e438f65d44bb8fe6287b8dba3dc434d6",
     "url": "/ARTInka/static/media/children.e438f65d.jpg"
+  },
+  {
+    "revision": "2a558bbadeb9bf8aecaee9529823d9fb",
+    "url": "/ARTInka/static/media/unicorns.2a558bba.png"
+  },
+  {
+    "revision": "2106a2c3d57622ea392c94eae50d8b50",
+    "url": "/ARTInka/static/media/redHeartInStar.2106a2c3.png"
+  },
+  {
+    "revision": "b4e13c643576d472a1c1065444fc8581",
+    "url": "/ARTInka/static/media/3balloons.b4e13c64.png"
   },
   {
     "revision": "039afa3fe7a20831576f457988797cb9",
@@ -266,6 +322,22 @@ self.__precacheManifest = [
   {
     "revision": "d8400d23921b0adfaa85044202364e3f",
     "url": "/ARTInka/static/media/student.d8400d23.svg"
+  },
+  {
+    "revision": "294f9c29f97c1f25e35124f5cb2e4be5",
+    "url": "/ARTInka/static/media/smilingSun.294f9c29.png"
+  },
+  {
+    "revision": "7856183cfdb807935b1d2dc511525f40",
+    "url": "/ARTInka/static/media/smilingCloud.7856183c.png"
+  },
+  {
+    "revision": "215ed28c84528189a0db47c94b8f769c",
+    "url": "/ARTInka/static/media/blueCloud.215ed28c.png"
+  },
+  {
+    "revision": "ac82f343f420b5c0f03bbb02712c94ef",
+    "url": "/ARTInka/static/media/blueCloud2.ac82f343.png"
   },
   {
     "revision": "e4aa7caeb73ba5e4919760446be22cc1",
@@ -316,19 +388,23 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/ARTInka/static/media/slick.f97e3bbf.svg"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/ARTInka/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/ARTInka/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "8d859cce2ebb159f8a09538aea93145a",
     "url": "/ARTInka/static/media/the-sun.8d859cce.png"
   },
   {
-    "revision": "950c584116c751795b54d92e46670902",
+    "revision": "e21dfaf1d311d84153d70859473a1987",
+    "url": "/ARTInka/static/media/rainbow2.e21dfaf1.png"
+  },
+  {
+    "revision": "d5548ff4c7c108cd4579e66dbd227afe",
     "url": "/ARTInka/index.html"
   }
 ];
