@@ -32,7 +32,7 @@ const AboutInHomePage = () => {
 							atrakcjami eventowymi, które są uwielbiane przez dzieci. Bo to
 							przecież dzięki nim to wszystko stworzyłam.
 						</p>
-						<Button text="Zobacz więcej" btnClass="" />
+						<Button text="Zobacz więcej" path="/" />
 					</Fade>
 				</div>
 				<div className="photos-about-in-home-page">

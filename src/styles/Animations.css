@@ -23,6 +23,19 @@
 	text-shadow: var(--shadowText);
 }
 
+.animations p {
+	margin-top: 30px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 150%;
+}
+
+.animations p span {
+	display: block;
+	font-size: 16px;
+}
+
 .content-animation-box {
 	width: 30%;
 	margin-bottom: 20px;
@@ -38,6 +51,8 @@
 	background-repeat: no-repeat;
 	background-size: 250px 250px;
 	transition: transform 0.5s linear;
+	position: relative;
+	z-index: 5;
 }
 
 .animation-img-wrapper:hover {

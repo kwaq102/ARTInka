@@ -27,6 +27,15 @@ const Animations = () => {
 				<section className="animations">
 					<h2>W ofercie</h2>
 					{list}
+					<p>
+						<span>UWAGA!</span>
+						Artinka zajmuję się działalnością artystyczną, głównie malowaniem
+						twarzy. Nie jestem animatorem i nie prowadzę imprez- zamiast tego
+						tworzę tzw. stanowiska artystyczno-animacyjne, z których dzieci mogą
+						skorzystać w dowolnej chwili podczas zabawy. Współpracuję z firmami
+						animacyjnymi, z którymi świadczę wspólnie usługi, tworząc idealną i
+						niezapomnianą imprezę dla dzieci.
+					</p>
 				</section>
 				<DecorationInAnimationsPage />
 			</div>
