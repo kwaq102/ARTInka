@@ -19,10 +19,7 @@ section.priceList h2 sup {
 }
 
 .priceList-wrapper {
-	display: flex;
 	width: 100%;
-	justify-content: space-around;
-	flex-wrap: wrap;
 	margin: 30px 0;
 }
 
@@ -32,7 +29,7 @@ section.priceList h2 sup {
 	width: 350px;
 	height: 490px;
 	padding-bottom: 10px;
-	margin-bottom: 50px;
+	margin: 20px auto 50px auto;
 	border-radius: 10px;
 	background-color: #eee;
 	transition: all 0.1s ease-out;
@@ -119,7 +116,6 @@ section.priceList h2 sup {
 	margin: 5px 0;
 	color: white;
 	font-size: 14px;
-	letter-spacing: ;
 }
 
 .priceList-description ul li a {
@@ -129,4 +125,26 @@ section.priceList h2 sup {
 .priceList-description ul li a:hover {
 	color: var(--red);
 	text-shadow: 1px 1px 1px black;
+}
+
+/* SLIDER ELEMENTS */
+
+/* PAGINATION BULLETS */
+.swiper-pagination-bullet-active {
+	background: var(--darkBlue);
+}
+
+/* NAVIGATION ARROWS */
+.swiper-button-prev,
+.swiper-button-next {
+	color: var(--darkBlue);
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+	left: 0;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+	right: 0;
 }
