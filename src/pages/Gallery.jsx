@@ -1,84 +1,68 @@
-import React, { useState } from "react";
-
-import { photos } from "../data/gallery.js";
-
-import Popup from "../components/Popup";
-import "../styles/Gallery.css";
+import React, { Component } from "react";
+import { photos as galleryPhotos } from "../data/gallery.js";
+import Lightbox from "react-18-image-lightbox";
+import "react-18-image-lightbox/style.css";
 import Header from "../layouts/Header.jsx";
+import "../styles/Gallery.css";
 
-const Gallery = () => {
-	const [clickedImg, setClickedImg] = useState(null);
-	const [currentIndex, setCurrentIndex] = useState(null);
+const images = galleryPhotos.map((el) => el.linkBig);
 
-	const handelClick = (el, i) => {
-		setCurrentIndex(i);
-		setClickedImg(el.linkBig);
-	};
+class Gallery extends Component {
+	constructor(props) {
+		super(props);
 
-	const hanleRotationRight = () => {
-		const totalLength = photos.length;
-
-		if (currentIndex + 1 >= totalLength) {
-			setCurrentIndex(0);
-			const newUrl = photos[0].linkBig;
-			setClickedImg(newUrl);
-			return;
-		}
-
-		const newIndex = currentIndex + 1;
-		const newUrl = photos.filter((photo) => photos.indexOf(photo) === newIndex);
-		const newItem = newUrl[0].linkBig;
-		setClickedImg(newItem);
-		setCurrentIndex(newIndex);
-	};
-
-	const hanleRotationLeft = () => {
-		const totalLength = photos.length;
-
-		if (currentIndex === 0) {
-			setCurrentIndex(totalLength - 1);
-			const newUrl = photos[totalLength - 1].linkBig;
-			setClickedImg(newUrl);
-			return;
-		}
-		const newIndex = currentIndex - 1;
-		const newUrl = photos.filter((photo) => photos.indexOf(photo) === newIndex);
-
-		const newItem = newUrl[0].linkBig;
-		setClickedImg(newItem);
-		setCurrentIndex(newIndex);
-	};
-
-	const showPhotos = photos.map((photo, i) => (
-		<div key={i} className="wrapper-img">
-			<img
-				src={photo.link}
-				alt={photo.text}
-				onClick={() => handelClick(photo, i)}
-			/>
-		</div>
-	));
-
-	return (
-		<>
-			<Header />
-
-			<div className="page-gallery">
-				<h2>Galeria</h2>
-				<div className="gallery">
-					{showPhotos}
-					{clickedImg && (
-						<Popup
-							clickedImg={clickedImg}
-							hanleRotationRight={hanleRotationRight}
-							hanleRotationLeft={hanleRotationLeft}
-							setClickedImg={setClickedImg}
-						/>
-					)}
-				</div>
+		this.state = {
+			photoIndex: 0,
+			isOpen: false,
+		};
+	}
+	render() {
+		const { photoIndex, isOpen } = this.state;
+		const photos = galleryPhotos.map((item) => (
+			<div className="wrapper-img">
+				<img
+					src={item.link}
+					alt={item.text}
+					key={item.id}
+					onClick={() => this.setState({ isOpen: true })}
+				/>
 			</div>
-		</>
-	);
-};
+		));
+		return (
+			<>
+				<Header />
+
+				<div className="page-gallery">
+					<h2 className="heading">Galeria</h2>
+					<div className="gallery">
+						{photos}
+						{isOpen && (
+							<Lightbox
+								mainSrc={images[photoIndex]}
+								nextSrc={images[(photoIndex + 1) % images.length]}
+								prevSrc={
+									images[(photoIndex + images.length - 1) % images.length]
+								}
+								onCloseRequest={() => this.setState({ isOpen: false })}
+								onMovePrevRequest={() =>
+									this.setState({
+										photoIndex:
+											(photoIndex + images.length - 1) % images.length,
+									})
+								}
+								onMoveNextRequest={() =>
+									this.setState({
+										photoIndex: (photoIndex + 1) % images.length,
+									})
+								}
+								enableZoom={false}
+							/>
+						)}
+					</div>
+				</div>
+			</>
+		);
+	}
+}
 
 export default Gallery;

@@ -17,7 +17,7 @@ const AboutInHomePage = () => {
 			<div className="wrapper-about-in-home-page">
 				<div className="content-about-in-home-page">
 					<Fade>
-						<h2>Witaj!</h2>
+						<h2 className="heading">Witaj!</h2>
 						<p>
 							<span>
 								Mam na imię Justyna, dla znajomych Justa, Tinka, Dżasta, jak kto

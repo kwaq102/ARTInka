@@ -6,7 +6,6 @@ import Header from "../layouts/Header";
 import { Swiper } from "swiper/react";
 import { SwiperSlide } from "swiper/react";
 
-// import ".."
 import "swiper/swiper-bundle.css";
 
 import "../styles/PriceList.css";
@@ -22,20 +21,6 @@ const PriceList = () => {
 					<h2 className="heading">
 						Cennik <sup>*</sup>
 					</h2>
-
-					{/* <Swiper>
-						<SwiperSlide>
-							<p class="swiper-slide">Slide 1</p>
-						</SwiperSlide>
-
-						<SwiperSlide>
-							<p class="swiper-slide">Slide 2</p>
-						</SwiperSlide>
-						<SwiperSlide>
-							<p class="swiper-slide">Slide 3</p>
-						</SwiperSlide>
-					</Swiper> */}
-
 					<div className="priceList-wrapper">
 						<Swiper
 							slidesPerView={3}
@@ -159,8 +144,8 @@ const PriceList = () => {
 									<h4>Warsztaty kreatywne</h4>
 									<div className="priceList-block">
 										<p>
-											Kreatywne koralik. To kreatywna zabawa, z któej może
-											powstać wiele cikawych rzeczy.
+											Kreatywne koraliki. To kreatywna zabawa, z której może
+											powstać wiele ciekawych rzeczy.
 										</p>
 										<span>
 											10 zł/<sub>osobę</sub>

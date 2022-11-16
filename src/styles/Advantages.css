@@ -14,13 +14,8 @@
 }
 
 .content-advantages h2 {
-	width: 100%;
-	font-weight: 900;
-	font-size: 100px;
 	text-align: center;
-	font-family: "Tangerine", cursive;
 	z-index: 4;
-	/* text-shadow: 1px 1px 1px #000; */
 }
 
 .advantage-box {

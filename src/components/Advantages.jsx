@@ -15,7 +15,7 @@ const Advantages = () => {
 		<section className="advantages">
 			<DecorationInAdvantagesHomePage />
 			<div className="content-advantages">
-				<h2>Artinka to</h2>
+				<h2 className="heading">Artinka to</h2>
 				<div className="advantage-box">
 					<img src={heart} alt="" />
 					<h4>Pasja</h4>

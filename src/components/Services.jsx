@@ -9,11 +9,11 @@ import "../styles/Services.css";
 
 const Services = () => {
 	return (
-		<section className="services">
+		<section className="services custom-shape-divider-top-1668633026">
 			<DecorationInServicesHomePage />
 			<div className="wrapper-services reverse">
 				<div className="content-services">
-					<h2>
+					<h2 className="heading">
 						<strong>Artinka</strong>
 					</h2>
 					<div>
@@ -39,7 +39,6 @@ const Services = () => {
 					<img src={photoTEst} alt="" />
 				</div>
 			</div>
-
 			<div className="wrapper-services">
 				<div className="content-services">
 					<h2>W ofercie</h2>

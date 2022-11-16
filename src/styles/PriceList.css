@@ -3,7 +3,8 @@
 }
 
 section.priceList {
-	width: var(--widthContent);
+	width: calc(var(--widthContent) * 1.1);
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 50px 0 0 0;
 }

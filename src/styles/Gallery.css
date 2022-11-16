@@ -7,10 +7,6 @@
 	width: var(--widthContent);
 	margin: 0 auto;
 	padding-top: 50px;
-	color: white;
-	font-weight: 900;
-	font-size: 100px;
-	font-family: "Tangerine", cursive;
 }
 
 .gallery {

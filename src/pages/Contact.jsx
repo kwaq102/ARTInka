@@ -58,7 +58,7 @@ const Contact = () => {
 						</div>
 						<div className="contact-form">
 							<h3 className="heading">Formularz kontaktowy</h3>
-							<form action="">FORMULARZ JUŻ W KRÓTCE</form>
+							<form action="">FORMULARZ JUŻ WKRÓTCE</form>
 						</div>
 					</div>
 				</section>
