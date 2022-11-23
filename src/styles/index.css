@@ -12,9 +12,20 @@
 		#ff9e5f
 	);
 	--green: #82b334;
-	--greenGradient: radial-gradient(circle at 50% 50%, #82b334, #91c63c);
+	--greenGradient: linear-gradient(
+		90deg,
+		#82b334 0%,
+		#91c63c 50%,
+		#82b334 100%
+	);
+
 	--red: #ff8b94;
-	--redGradient: radial-gradient(circle at 50% 50%, #e67e87, #ff8b94);
+	--redGradient: linear-gradient(
+		90deg,
+		#ff8b94 0%,
+		rgba(230, 126, 135, 1) 50%,
+		rgba(255, 139, 148, 1) 100%
+	);
 	--blue: #64b5f6;
 	--blueGradient: radial-gradient(circle at 40% 50%, #5aa1db, #64b5f6);
 	--darkBlue: #0984e3;

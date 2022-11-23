@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import Pages from "./Pages";
 
+import wave from "../imgs/wave.svg";
+
 class App extends Component {
 	render() {
 		return (

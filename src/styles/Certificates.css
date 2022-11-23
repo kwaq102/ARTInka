@@ -1,5 +1,18 @@
 .certificates {
+	position: relative;
 	background: var(--greenGradient);
+}
+
+.certificates::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background: inherit;
+	top: -30px;
+	left: 0;
+	clip-path: polygon(80% 0, 0 10%, 100% 10%);
+	z-index: 1;
 }
 
 .certificates-wrapper {

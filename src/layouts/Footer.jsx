@@ -40,13 +40,15 @@ const Footer = () => {
 						</a>
 					</div>
 					<div className="footer-nav">{menu}</div>
-					<div className="policy">
-						<p>ARTinka © 2022.</p>
-						<p>
-							Projekt i wykonanie{" "}
-							<a href="https://gajewwwski.pl">gajewwwski.pl</a>
-						</p>
-					</div>
+				</div>
+			</div>
+			<div className="policy">
+				<div className="wrapper-policy">
+					<p>ARTinka © 2022.</p>
+					<p>
+						Projekt i wykonanie{" "}
+						<a href="https://gajewwwski.pl">gajewwwski.pl</a>
+					</p>
 				</div>
 			</div>
 		</>
