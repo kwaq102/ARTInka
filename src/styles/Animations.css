@@ -37,12 +37,54 @@
 }
 
 .content-animation-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
 	width: 30%;
-	margin-bottom: 20px;
+	height: 500px;
+	margin-bottom: 40px;
+	padding: 20px;
 	text-align: center;
 	color: white;
+	position: relative;
+	z-index: 5;
 }
 
+.card {
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+	box-shadow: -20px -20px 0px 0px var(--redTransparent);
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	border-radius: 10px;
+
+	clip-path: circle(5% at 90% 90%);
+	/* opacity: 0; */
+
+	transition: all 0.3s ease-in-out;
+}
+
+.card.card-show {
+	clip-path: circle(100%);
+	/* opacity: 1; */
+	background-color: #fff;
+}
+
+@keyframes show {
+	0% {
+		clip-path: circle(5% at 90% 90%);
+	}
+	100% {
+		clip-path: circle(100%);
+	}
+}
 .animation-img-wrapper {
 	width: 250px;
 	height: 250px;
@@ -51,15 +93,13 @@
 	background-repeat: no-repeat;
 	background-size: 250px 250px;
 	transition: transform 0.5s linear;
-	position: relative;
-	z-index: 5;
 }
 
-.animation-img-wrapper:hover {
+.content-animation-box:hover .animation-img-wrapper {
 	transform: rotate(90deg);
 }
 
-.animation-img-wrapper:hover div img {
+.content-animation-box:hover .animation-img-wrapper div img {
 	transform: rotate(-90deg);
 }
 
@@ -70,7 +110,6 @@
 	justify-content: center;
 	align-items: center;
 	transition: all 0.2s linear;
-	cursor: pointer;
 }
 
 .animation-img-wrapper div img {
@@ -80,18 +119,57 @@
 	transition: transform 0.5s linear;
 }
 
-.content-animation-box h4 {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.card-heading {
 	font-size: 28px;
 	letter-spacing: 2px;
 	font-weight: 300;
 	text-shadow: 1px 1px 1px #000;
+	transition: all 0.3s ease-in-out;
 }
 
-.content-animation-box p {
+.card-heading-show {
+	font-size: 30px;
+	padding-bottom: 20px;
+	color: #000;
+	text-align: left;
+	letter-spacing: 1px;
+	font-weight: 900;
+	text-shadow: none;
+	border-bottom: 5px solid var(--redDark);
+}
+
+.content-animation-box .card-description {
+	margin-top: 10px;
 	line-height: 130%;
 	font-size: 14px;
 	letter-spacing: 1px;
+	font-weight: 300;
 	font-style: italic;
+}
+
+.card .card-description {
+	color: black;
+	/* letter-spacing: -0.25px; */
+	line-height: 1.25;
+	font-size: 16px;
+	text-align: justify;
+	/* cursor: auto; */
+}
+
+.content-animation-box .btn-offer {
+	display: block;
+	margin: 0 auto;
+	margin-top: auto;
+	padding: 10px 20px;
+	border-radius: 50px;
+	font-size: 16px;
+	font-weight: normal;
+
+	background-color: var(--orange);
+	color: white;
+	transition: all 0.2s ease-out;
+}
+
+.content-animation-box .btn-offer:hover {
+	background-color: var(--blue);
 }

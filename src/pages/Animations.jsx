@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { animationList } from "../data/data";
 import Header from "../layouts/Header";
@@ -6,19 +6,19 @@ import Header from "../layouts/Header";
 import DecorationInAnimationsPage from "../components/decorationsComponents/DecorationInAnimationsPage";
 
 import "../styles/Animations.css";
+import CardFront from "../components/Cards/CardFront";
 
 const Animations = () => {
-	const list = animationList.map((el) => (
-		<div className="content-animation-box">
-			<div className="animation-img-wrapper">
-				<div>
-					<img src={el.photo} alt="" />
-				</div>
-			</div>
-			<h4>{el.title}</h4>
-			<p>{el.description}</p>
-		</div>
-	));
+	const list = animationList.map((el) => {
+		return (
+			<CardFront
+				photo={el.photo}
+				title={el.title}
+				description={el.description}
+				shortDescription={el.shortDescription}
+			/>
+		);
+	});
 
 	return (
 		<>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import phone from "../imgs/icons/phone-solid.svg";
 import { navList } from "../data/data.js";
@@ -8,8 +8,18 @@ import logo from "../imgs/logo.png";
 import "../styles/Navigation.css";
 
 const Navigation = () => {
+	// const scrollTop = { top: 0, left: 0, behavior: "smooth" };
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	const menu = navList.map((el) => (
-		<li key={el.navName} className={"nav-item"}>
+		<li
+			key={el.navName}
+			className={"nav-item"}
+			onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "auto" })}
+		>
 			<NavLink to={el.path} end={el}>
 				{el.navName}
 			</NavLink>

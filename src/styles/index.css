@@ -20,6 +20,8 @@
 	);
 
 	--red: #ff8b94;
+	--redDark: #c95b66;
+	--redTransparent: #c95b663e;
 	--redGradient: linear-gradient(
 		90deg,
 		#ff8b94 0%,
