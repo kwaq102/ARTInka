@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "83c7c89f431c20cf93dc",
-    "url": "/ARTInka/static/css/main.0b7742a7.chunk.css"
+    "revision": "cf0ed65f49e5661da237",
+    "url": "/ARTInka/static/css/main.8e82c7af.chunk.css"
   },
   {
-    "revision": "83c7c89f431c20cf93dc",
-    "url": "/ARTInka/static/js/main.c6346216.chunk.js"
+    "revision": "cf0ed65f49e5661da237",
+    "url": "/ARTInka/static/js/main.d0b8fb94.chunk.js"
   },
   {
     "revision": "c0a2046deaff95fc490d",
     "url": "/ARTInka/static/js/runtime~main.c1515914.js"
   },
   {
-    "revision": "99719f4a08935e436128",
-    "url": "/ARTInka/static/css/2.2057f23f.chunk.css"
+    "revision": "82c3d1aa57535a4c54d4",
+    "url": "/ARTInka/static/css/2.3e2d4504.chunk.css"
   },
   {
-    "revision": "99719f4a08935e436128",
-    "url": "/ARTInka/static/js/2.0ff5b8cf.chunk.js"
+    "revision": "82c3d1aa57535a4c54d4",
+    "url": "/ARTInka/static/js/2.7928cf3e.chunk.js"
   },
   {
     "revision": "0102b1585905d0d92ebe032a878b23ef",
@@ -384,12 +384,12 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/ARTInka/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/ARTInka/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/ARTInka/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -404,7 +404,11 @@ self.__precacheManifest = [
     "url": "/ARTInka/static/media/rainbow2.e21dfaf1.png"
   },
   {
-    "revision": "d5548ff4c7c108cd4579e66dbd227afe",
+    "revision": "5c94eab5d5bf8d40d18dc1fa827ed2a7",
+    "url": "/ARTInka/static/media/wave.5c94eab5.svg"
+  },
+  {
+    "revision": "e9fee341fc54a5a0ef7eaebbb09f84f0",
     "url": "/ARTInka/index.html"
   }
 ];
