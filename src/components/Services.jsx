@@ -1,7 +1,7 @@
 import React from "react";
 
-import photoTEst from "../imgs/paintFace2.jpg";
-import photoTEst2 from "../imgs/children.jpg";
+import offer from "../imgs/offerHomePage/offer.jpg";
+import offer2 from "../imgs/offerHomePage/offer2.jpg";
 
 import DecorationInServicesHomePage from "../components/decorationsComponents/DecorationInServicesHomePage";
 
@@ -36,7 +36,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="photos-services">
-					<img src={photoTEst} alt="" />
+					<img src={offer} alt="" />
 				</div>
 			</div>
 			<div className="wrapper-services">
@@ -45,19 +45,24 @@ const Services = () => {
 					<div>
 						<p>Oprócz malowania twarzy świadczę inne usługi eventowe:</p>
 						<ul className="list">
-							<li>zaplatanie kolorowych warkoczyków</li>
+							<li>artystyczne malowanie twarzy i ciała</li>
 							<li>tatuaże brokatowe</li>
-							<li>wielkie bański mydlane</li>
-							<li>warsztaty balonowe</li>
+							<li>zaplatanie kolorowych warkoczyków</li>
+							<li>laser tag-laserowy paintball</li>
 							<li>
-								kreatywne gry zespołowe z wykorzystaniem pistoletów na
-								podczerwień (laser tag)
+								warsztaty kreatywne: tworzenie przypinek i magnesów (25Ø i 56Ø),
+								kreatywne koraliki i inne
 							</li>
+							<li>warsztaty balonowe</li>
+							<li>modelowanie balonów</li>
+							<li>zamykanie w bańce mydlanej</li>
+							<li>tworzenie ogromnych baniek mydlanych</li>
+							<li>kącik malucha</li>
 						</ul>
 					</div>
 				</div>
 				<div className="photos-services">
-					<img src={photoTEst2} alt="" className="left-img" />
+					<img src={offer2} alt="" className="left-img" />
 				</div>
 				<p className="text">
 					Każda z tych usług to dodatkowa atrakcja do Twojej imprezy.

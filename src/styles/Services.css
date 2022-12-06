@@ -51,7 +51,8 @@
 .content-services div ul li {
 	min-width: 30%;
 	margin-right: 20px;
-	list-style: none;
+	list-style-image: url("../imgs/butterflyOpacity2_20x20.png");
+
 	font-size: 18px;
 	font-style: italic;
 }

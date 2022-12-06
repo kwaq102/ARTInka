@@ -1,9 +1,9 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal/dist/index.js";
 
-import justyna from "../imgs/justyna.jpg";
-import justyna2 from "../imgs/justyna2.jpg";
-import justyna3 from "../imgs/justyna3.jpg";
+import justyna from "../imgs/greetingHomePage/justyna1.jpg";
+import justyna2 from "../imgs/greetingHomePage/justyna2.jpg";
+import justyna3 from "../imgs/greetingHomePage/justyna3.jpg";
 
 import DecorationInAboutHomePage from "./decorationsComponents/DecorationInAboutHomePage";
 
@@ -36,8 +36,8 @@ const AboutInHomePage = () => {
 					</Fade>
 				</div>
 				<div className="photos-about-in-home-page">
-					<img src={justyna} alt="" />
 					<img src={justyna2} alt="" />
+					<img src={justyna} alt="" />
 					<img src={justyna3} alt="" />
 				</div>
 			</div>

@@ -31,10 +31,10 @@
 }
 
 .flower {
-	width: 150px;
+	width: 130px;
 	z-index: 5;
-	bottom: 8%;
-	right: 7%;
+	bottom: 2%;
+	right: 5%;
 }
 
 @keyframes rotate {
