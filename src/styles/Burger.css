@@ -1,0 +1,21 @@
+.menu-burger {
+	display: none;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.menu-burger img {
+	display: none;
+	width: 30px;
+}
+
+img.show-icon {
+	display: block;
+}
+
+/* MOBILE SCREEN */
+@media (max-width: 900px) {
+	.menu-burger {
+		display: block;
+	}
+}

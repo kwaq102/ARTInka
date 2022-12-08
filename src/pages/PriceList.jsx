@@ -224,7 +224,7 @@ const PriceList = () => {
 											Dzieci tworzą zwierzątka, miecze, kwiatki, różdżki, ćwiczą
 											motorykę i utrwalają kolory.
 										</p>
-										<span>15 zł/figurkę</span>
+										<span>10 zł/figurkę</span>
 									</div>
 									<div className="priceList-block">
 										<p>

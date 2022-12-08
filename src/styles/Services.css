@@ -10,6 +10,7 @@
 	margin: 10px auto 50px auto;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	color: white;
 }
 
@@ -44,7 +45,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-grow: 1;
-	margin: 5px 0 20px 0;
+	margin: 5px 0 20px 25px;
 	line-height: 150%;
 }
 
@@ -52,7 +53,6 @@
 	min-width: 30%;
 	margin-right: 20px;
 	list-style-image: url("../imgs/butterflyOpacity2_20x20.png");
-
 	font-size: 18px;
 	font-style: italic;
 }
@@ -89,4 +89,51 @@
 
 .wrapper-services .text:nth-of-type(1) {
 	margin-top: 90px;
+}
+
+@media (max-width: 1400px) {
+	.content-services {
+		width: 50%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.wrapper-services {
+		width: 80%;
+	}
+	.photos-services img {
+		width: 90%;
+	}
+
+	.wrapper-services .text {
+		font-size: 20px;
+	}
+	.wrapper-services .text:nth-of-type(1) {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 900px) {
+	.services {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.wrapper-services {
+		flex-direction: column;
+	}
+	.content-services {
+		width: 100%;
+	}
+	.content-services div p {
+		font-size: 16px;
+	}
+
+	.content-services div ul li {
+		font-size: 16px;
+		margin-right: 0;
+	}
+	.photos-services {
+		margin-top: 20px;
+		width: 100%;
+	}
 }

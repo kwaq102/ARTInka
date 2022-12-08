@@ -35,3 +35,33 @@
 .certificate-box img:hover {
 	transform: perspective(900px) rotateY(35deg);
 }
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1200px) {
+	.certificates-wrapper {
+		width: 80%;
+	}
+}
+
+/* MOBILE SCREEN */
+
+@media (max-width: 900px) {
+	.certificates-wrapper {
+		width: 90%;
+	}
+	.certificate-box {
+		margin: 10px 20px;
+	}
+}
+@media (max-width: 700px) {
+	.certificate-box {
+		margin: 10px 10px;
+		width: 130px;
+	}
+}
+@media (max-width: 500px) {
+	.certificate-box {
+		/* width: 100px; */
+	}
+}

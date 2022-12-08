@@ -67,3 +67,11 @@ strong {
 	font-family: "Tangerine", cursive;
 	text-shadow: var(--shadowText);
 }
+
+/* MOBILE */
+
+@media (max-width: 1200px) {
+	.heading {
+		font-size: 80px;
+	}
+}

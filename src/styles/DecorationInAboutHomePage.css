@@ -49,3 +49,58 @@
 		transform: rotate(360deg);
 	}
 }
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1200px) {
+	.starPink {
+		top: 60px;
+		left: 60%;
+	}
+
+	.butterflyOpacity {
+		top: 60px;
+		left: 35%;
+	}
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+	.starPink {
+		width: 30px;
+	}
+	.butterflyOpacity {
+		width: 100px;
+	}
+	.flower {
+		width: 100px;
+		bottom: 3%;
+	}
+}
+
+@media (max-width: 700px) {
+	.starPink {
+		left: 80%;
+	}
+	.butterflyOpacity {
+		left: 45%;
+	}
+	.flower {
+		right: 1%;
+		bottom: 1%;
+	}
+}
+
+@media (max-width: 700px) {
+	.starPink {
+		left: 90%;
+	}
+	.butterflyOpacity {
+		left: 55%;
+	}
+	.flower {
+		right: 1%;
+		bottom: 1%;
+	}
+}

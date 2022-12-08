@@ -7,7 +7,6 @@
 .wrapper-about-in-home-page {
 	width: var(--widthContent);
 	margin: 0 auto;
-
 	display: flex;
 	justify-content: space-between;
 }
@@ -65,4 +64,100 @@
 	transform: translateX(-120px);
 	width: 205px;
 	height: 205px;
+}
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1400px) {
+	.photos-about-in-home-page img {
+		left: 25%;
+	}
+	.photos-about-in-home-page img:nth-child(1) {
+		width: 200px;
+		height: 200px;
+	}
+	.photos-about-in-home-page img:nth-child(2) {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.about-in-home-page {
+		padding-top: 0;
+	}
+	.wrapper-about-in-home-page {
+		width: 100%;
+		padding-bottom: 230px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.content-about-in-home-page,
+	.photos-about-in-home-page {
+		width: 80%;
+	}
+
+	.photos-about-in-home-page img {
+		left: 0;
+	}
+	.photos-about-in-home-page img:nth-child(1),
+	.photos-about-in-home-page img:nth-child(2),
+	.photos-about-in-home-page img:nth-child(3) {
+		top: 0;
+		width: 200px;
+		height: 200px;
+		transform: translateX(0px);
+	}
+	.photos-about-in-home-page img:nth-child(2) {
+		left: 160px;
+	}
+	.photos-about-in-home-page img:nth-child(1) {
+		left: 320px;
+	}
+}
+
+@media (max-width: 900px) {
+	.content-about-in-home-page p {
+		font-size: 14px;
+	}
+
+	.content-about-in-home-page p span {
+		font-size: 16px;
+	}
+	.photos-about-in-home-page img:nth-child(1),
+	.photos-about-in-home-page img:nth-child(2),
+	.photos-about-in-home-page img:nth-child(3) {
+		width: 160px;
+		height: 160px;
+	}
+	.photos-about-in-home-page img:nth-child(2) {
+		left: 140px;
+	}
+	.photos-about-in-home-page img:nth-child(1) {
+		left: 280px;
+	}
+}
+
+@media (max-width: 500px) {
+	.photos-about-in-home-page {
+		padding-bottom: 70px;
+	}
+	.photos-about-in-home-page img:nth-child(1),
+	.photos-about-in-home-page img:nth-child(2),
+	.photos-about-in-home-page img:nth-child(3) {
+		width: 150px;
+		height: 150px;
+	}
+	.photos-about-in-home-page img:nth-child(2) {
+		left: 50%;
+		transform: translateX(-50%) translateY(130px);
+	}
+	.photos-about-in-home-page img:nth-child(1) {
+		left: 50%;
+	}
+	.photos-about-in-home-page img:nth-child(3) {
+		left: 50%;
+		transform: translateX(-100%);
+	}
 }

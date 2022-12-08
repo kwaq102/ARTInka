@@ -26,3 +26,14 @@
 	padding-top: 20px;
 	background-color: var(--blue);
 }
+
+/* MOBILE SCREEN */
+@media (max-width: 900px) {
+	#nav {
+		height: 70px;
+	}
+
+	#header {
+		margin-top: 70px;
+	}
+}

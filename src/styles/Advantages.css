@@ -45,3 +45,11 @@
 	font-size: 16px;
 	line-height: 150%;
 }
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1200px) {
+	.content-advantages {
+		width: 80%;
+	}
+}

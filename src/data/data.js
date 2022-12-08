@@ -1,5 +1,5 @@
 // Slider Photos
-import firstSilderPhoto from "../imgs/slider/one.jpg";
+import firstSilderPhoto from "../imgs/slider/one.JPG";
 import secondSliderPhoto from "../imgs/slider/2.jpg";
 import thirdSliderPhoto from "../imgs/slider/3.jpg";
 import fourthSliderPhoto from "../imgs/slider/4.jpg";
