@@ -15,7 +15,6 @@ section.priceList h2 {
 }
 
 section.priceList h2 sup {
-	/* margin: 0 0 100px 20px; */
 	font-size: 50px;
 }
 
@@ -148,4 +147,53 @@ section.priceList h2 sup {
 .swiper-button-next,
 .swiper-rtl .swiper-button-prev {
 	right: 0;
+}
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1200px) {
+	section.priceList {
+		width: 80%;
+	}
+
+	section.priceList h2 {
+		width: 80%;
+	}
+
+	.priceList-description ul {
+		width: 80%;
+	}
+}
+
+/* MOBILE SCREEN */
+
+@media (max-width: 700px) {
+	.priceList-box:hover {
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 700px) {
+	.priceList-box {
+		width: 330px;
+		height: 460px;
+	}
+	.priceList-block p {
+		font-size: 12px;
+	}
+	.priceList-block span {
+		font-size: 11px;
+	}
+	.btn-priceList {
+		width: 150px;
+	}
+	.btn-priceList a {
+		padding: 10px 20px;
+		font-size: 12px;
+	}
+
+	.swiper-button-prev::after,
+	.swiper-button-next::after {
+		font-size: 28px;
+	}
 }

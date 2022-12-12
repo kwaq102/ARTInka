@@ -29,6 +29,17 @@ const PriceList = () => {
 							}}
 							navigation={true}
 							modules={[Pagination, Navigation]}
+							breakpoints={{
+								300: {
+									slidesPerView: 1,
+								},
+								900: {
+									slidesPerView: 2,
+								},
+								1200: {
+									slidesPerView: 3,
+								},
+							}}
 						>
 							<SwiperSlide>
 								<div className="priceList-box">

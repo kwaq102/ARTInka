@@ -29,7 +29,6 @@
 	width: 100%;
 	cursor: pointer;
 	transition: transform 0.2s linear;
-	/* border: 4px solid var(--red); */
 }
 
 .wrapper-img img:hover {
@@ -38,4 +37,34 @@
 
 .wrapper-img img.duze {
 	display: none;
+}
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1200px) {
+	.page-gallery h2 {
+		width: 80%;
+	}
+	.gallery {
+		width: 80%;
+	}
+}
+
+@media (max-width: 900px) {
+	.page-gallery h2 {
+		width: 90%;
+	}
+	.gallery {
+		width: 90%;
+	}
+
+	.wrapper-img {
+		width: 30%;
+	}
+}
+
+@media (max-width: 500px) {
+	.wrapper-img {
+		width: 45%;
+	}
 }
