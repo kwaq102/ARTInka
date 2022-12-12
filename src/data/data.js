@@ -1,9 +1,14 @@
 // Slider Photos
 import firstSilderPhoto from "../imgs/slider/one.JPG";
+import firstSilderPhotoW900 from "../imgs/slider/one_w900.JPG";
 import secondSliderPhoto from "../imgs/slider/2.jpg";
+import secondSliderPhotoW900 from "../imgs/slider/2_w900.jpg";
 import thirdSliderPhoto from "../imgs/slider/3.jpg";
+import thirdSliderPhotoW900 from "../imgs/slider/3_w900.jpg";
 import fourthSliderPhoto from "../imgs/slider/4.jpg";
+import fourthSliderPhotoW900 from "../imgs/slider/4_w900.jpg";
 import fivethSliderPhoto from "../imgs/slider/5.jpeg";
+import fivethSliderPhotoW900 from "../imgs/slider/5_w900.jpeg";
 
 // Animation photos
 import paintFace300 from "../imgs/paintFace_300x300.jpg";
@@ -28,26 +33,31 @@ export const photosOnSlider = [
 		id: 0,
 		title: "Tatuaże na rękach dzieci",
 		photo: fivethSliderPhoto,
+		photoMedium: fivethSliderPhotoW900,
 	},
 	{
 		id: 1,
 		title: "Rysowanie twarzy",
 		photo: thirdSliderPhoto,
+		photoMedium: thirdSliderPhotoW900,
 	},
 	{
 		id: 2,
 		title: "Bański mydlane",
 		photo: secondSliderPhoto,
+		photoMedium: secondSliderPhotoW900,
 	},
 	{
 		id: 3,
 		title: "Malowanie ulicy",
 		photo: fourthSliderPhoto,
+		photoMedium: fourthSliderPhotoW900,
 	},
 	{
 		id: 4,
 		title: "Bański mydlane",
 		photo: firstSilderPhoto,
+		photoMedium: firstSilderPhotoW900,
 	},
 ];
 

@@ -117,6 +117,8 @@
 	}
 }
 
+/* MOBILE SCREEN */
+
 @media (max-width: 900px) {
 	.content-about-in-home-page p {
 		font-size: 14px;

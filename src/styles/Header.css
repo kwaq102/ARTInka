@@ -36,3 +36,23 @@
 .slick-prev {
 	left: 5%;
 }
+
+/* MOBILE SCREEN */
+
+@media (max-width: 900px) {
+	.header h1 {
+		font-size: 64px;
+	}
+}
+
+@media (max-width: 600px) {
+	.header h1 {
+		font-size: 54px;
+	}
+}
+
+@media (max-width: 600px) {
+	.header h1 {
+		font-size: 44px;
+	}
+}

@@ -75,7 +75,7 @@
 }
 
 .socials a img:hover {
-	transform: rotateY(-360deg);
+	transform: rotateY(-180deg);
 }
 
 .footer-nav {
@@ -142,4 +142,46 @@
 .policy p a {
 	color: white;
 	text-decoration: none;
+}
+
+/* MEDIUM SCREEN */
+
+@media (max-width: 1200px) {
+	.footer {
+		width: 80%;
+	}
+
+	.footer-content {
+		width: 60%;
+	}
+	.wrapper-policy {
+		width: 80%;
+	}
+}
+
+/* MOBILE SCREEN */
+
+@media (max-width: 900px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer-logo {
+		margin-bottom: 20px;
+	}
+
+	.footer-content {
+		align-items: center;
+	}
+	.socials {
+		margin-bottom: 20px;
+	}
+	.footer-nav {
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-nav-item {
+		margin: 5px 0;
+	}
 }

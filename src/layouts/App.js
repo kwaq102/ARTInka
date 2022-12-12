@@ -5,12 +5,10 @@ import Footer from "./Footer";
 import Navigation from "./Navigation";
 import Pages from "./Pages";
 
-import wave from "../imgs/wave.svg";
-
 const App = () => {
 	const [showIconBurger, setShowIconBurger] = useState(true);
 
-	const hiddenNavigation = (e) => {
+	const hiddenNavigation = e => {
 		console.log(window);
 		if (!showIconBurger) {
 			if (
