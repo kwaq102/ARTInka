@@ -9,9 +9,6 @@
 	margin: 0 auto;
 }
 
-.contact h2 {
-}
-
 .contact p {
 	width: 40%;
 	color: white;
@@ -58,10 +55,6 @@ p.method-text {
 	color: #ddd;
 }
 
-.contact-link {
-	/* width: 50px; */
-}
-
 .contact-link img {
 	display: block;
 	width: 40px;
@@ -98,4 +91,35 @@ p.method-text {
 
 .contact-form form {
 	text-align: center;
+}
+
+/* MEDIUM SCREEN */
+@media (max-width: 1400px) {
+	.contact {
+		width: 90%;
+	}
+}
+@media (max-width: 1200px) {
+	.contact p {
+		width: 100%;
+	}
+	.contact-methods {
+		flex-wrap: wrap;
+	}
+	.method-box-content {
+		width: 100%;
+	}
+	.method-box {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.contact-content {
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact-photo {
+		width: 80%;
+		margin-bottom: 40px;
+	}
 }
