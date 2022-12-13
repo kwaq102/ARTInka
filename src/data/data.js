@@ -1,14 +1,24 @@
 // Slider Photos
 import firstSilderPhoto from "../imgs/slider/one.JPG";
+import firstSilderPhotoW1200 from "../imgs/slider/one_w1200.jpg";
 import firstSilderPhotoW900 from "../imgs/slider/one_w900.JPG";
+import firstSilderPhotoW500 from "../imgs/slider/one_w500.JPG";
 import secondSliderPhoto from "../imgs/slider/2.jpg";
+import secondSliderPhotoW1200 from "../imgs/slider/2_w1200.jpg";
 import secondSliderPhotoW900 from "../imgs/slider/2_w900.jpg";
+import secondSliderPhotoW500 from "../imgs/slider/2_w500.jpg";
 import thirdSliderPhoto from "../imgs/slider/3.jpg";
+import thirdSliderPhotoW1200 from "../imgs/slider/3_w1200.jpg";
 import thirdSliderPhotoW900 from "../imgs/slider/3_w900.jpg";
+import thirdSliderPhotoW500 from "../imgs/slider/3_w500.jpg";
 import fourthSliderPhoto from "../imgs/slider/4.jpg";
+import fourthSliderPhotoW1200 from "../imgs/slider/4_w1200.jpg";
 import fourthSliderPhotoW900 from "../imgs/slider/4_w900.jpg";
+import fourthSliderPhotoW500 from "../imgs/slider/4_w500.jpg";
 import fivethSliderPhoto from "../imgs/slider/5.jpeg";
-import fivethSliderPhotoW900 from "../imgs/slider/5_w900.jpeg";
+import fivethSliderPhotoW1200 from "../imgs/slider/5_w1200.jpg";
+import fivethSliderPhotoW900 from "../imgs/slider/5_w900.jpg";
+import fivethSliderPhotoW500 from "../imgs/slider/5_w500.jpg";
 
 // Animation photos
 import paintFace300 from "../imgs/paintFace_300x300.jpg";
@@ -34,30 +44,35 @@ export const photosOnSlider = [
 		title: "Tatuaże na rękach dzieci",
 		photo: fivethSliderPhoto,
 		photoMedium: fivethSliderPhotoW900,
+		photoSmall: fivethSliderPhotoW500,
 	},
 	{
 		id: 1,
 		title: "Rysowanie twarzy",
 		photo: thirdSliderPhoto,
 		photoMedium: thirdSliderPhotoW900,
+		photoSmall: thirdSliderPhotoW500,
 	},
 	{
 		id: 2,
 		title: "Bański mydlane",
 		photo: secondSliderPhoto,
 		photoMedium: secondSliderPhotoW900,
+		photoSmall: secondSliderPhotoW500,
 	},
 	{
 		id: 3,
 		title: "Malowanie ulicy",
 		photo: fourthSliderPhoto,
 		photoMedium: fourthSliderPhotoW900,
+		photoSmall: fourthSliderPhotoW500,
 	},
 	{
 		id: 4,
 		title: "Bański mydlane",
 		photo: firstSilderPhoto,
 		photoMedium: firstSilderPhotoW900,
+		photoSmall: firstSilderPhotoW500,
 	},
 ];
 

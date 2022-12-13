@@ -19,17 +19,14 @@ const Header = () => {
 		slidesToScroll: 1,
 		initialSlide: 0,
 	};
-	/*
-	<picture>
-		<source />
-		<source media="(max-width: 480px)" srcset={law1Mobile} />
-		<source media="(max-width: 768px)" srcset={law1Medium} />
-		<img src={law1} alt="młotek sędziowski" />
-	</picture>
-*/
 
 	const photos = photosOnSlider.map(photo => (
 		<picture>
+			<source
+				class="img-slider"
+				media="(max-width: 500px)"
+				srcset={photo.photoSmall}
+			/>
 			<source
 				class="img-slider"
 				media="(max-width: 900px)"
