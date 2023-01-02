@@ -5,6 +5,7 @@ import Gallery from "../pages/Gallery";
 import PriceList from "../pages/PriceList";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
+import ErrorPage from "../pages/ErrorPage";
 
 const Pages = () => {
 	return (
@@ -15,6 +16,7 @@ const Pages = () => {
 				<Route path="/galeria" element={<Gallery />} />
 				<Route path="/cennik" element={<PriceList />} />
 				<Route path="/kontakt" element={<Contact />} />
+				<Route path="*" element={<ErrorPage />} />
 			</Routes>
 		</>
 	);

@@ -1,0 +1,27 @@
+.error-page {
+	margin-top: 150px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.error-page p {
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+.error-page a {
+	text-decoration: 0;
+	color: black;
+	font-style: italic;
+}
+.error-page a:hover {
+	color: var(--red);
+}
+
+@media (max-width: 900px) {
+	.error-page {
+		margin-top: 70px;
+	}
+}
