@@ -32,14 +32,14 @@ const Advantages = () => {
 				<div className="advantage-box">
 					<img src={brain} alt="" />
 					<h4>Kreatywność</h4>
-					<p>Nigdy mi jej nie brakuje - dzieci ciągle mi jej dostarczają</p>
+					<p>Nigdy mi jej nie brakuje - dzieci ciągle mi jej dostarczają.</p>
 				</div>
 				<div className="advantage-box">
 					<img src={student} alt="" />
 					<h4>Profesjonalizm</h4>
 					<p>
 						<strong>Malowaniem twarzy</strong> zajmuję się od lat i stawiam na
-						ciągły samorozwuj.
+						ciągły samorozwój.
 					</p>
 				</div>
 			</div>

@@ -5,7 +5,7 @@ import "react-18-image-lightbox/style.css";
 import Header from "../layouts/Header.jsx";
 import "../styles/Gallery.css";
 
-const images = galleryPhotos.map((el) => el.linkBig);
+const images = galleryPhotos.map(el => el.linkBig);
 
 class Gallery extends Component {
 	constructor(props) {
@@ -18,13 +18,19 @@ class Gallery extends Component {
 	}
 	render() {
 		const { photoIndex, isOpen } = this.state;
-		const photos = galleryPhotos.map((item) => (
+		const photos = galleryPhotos.map(item => (
 			<div className="wrapper-img">
 				<img
 					src={item.link}
 					alt={item.text}
 					key={item.id}
-					onClick={() => this.setState({ isOpen: true })}
+					data-id={item.id}
+					onClick={e => {
+						this.setState({
+							photoIndex: e.target.getAttribute("data-id") - 1,
+							isOpen: true,
+						});
+					}}
 				/>
 			</div>
 		));
@@ -43,7 +49,11 @@ class Gallery extends Component {
 								prevSrc={
 									images[(photoIndex + images.length - 1) % images.length]
 								}
-								onCloseRequest={() => this.setState({ isOpen: false })}
+								onCloseRequest={() =>
+									this.setState({
+										isOpen: false,
+									})
+								}
 								onMovePrevRequest={() =>
 									this.setState({
 										photoIndex:

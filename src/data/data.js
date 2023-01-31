@@ -7,18 +7,10 @@ import secondSliderPhoto from "../imgs/slider/2.jpg";
 import secondSliderPhotoW1200 from "../imgs/slider/2_w1200.jpg";
 import secondSliderPhotoW900 from "../imgs/slider/2_w900.jpg";
 import secondSliderPhotoW500 from "../imgs/slider/2_w500.jpg";
-import thirdSliderPhoto from "../imgs/slider/3.jpg";
-import thirdSliderPhotoW1200 from "../imgs/slider/3_w1200.jpg";
-import thirdSliderPhotoW900 from "../imgs/slider/3_w900.jpg";
-import thirdSliderPhotoW500 from "../imgs/slider/3_w500.jpg";
 import fourthSliderPhoto from "../imgs/slider/4.jpg";
 import fourthSliderPhotoW1200 from "../imgs/slider/4_w1200.jpg";
 import fourthSliderPhotoW900 from "../imgs/slider/4_w900.jpg";
 import fourthSliderPhotoW500 from "../imgs/slider/4_w500.jpg";
-import fivethSliderPhoto from "../imgs/slider/5.jpeg";
-import fivethSliderPhotoW1200 from "../imgs/slider/5_w1200.jpg";
-import fivethSliderPhotoW900 from "../imgs/slider/5_w900.jpg";
-import fivethSliderPhotoW500 from "../imgs/slider/5_w500.jpg";
 
 // Animation photos
 import paintFace300 from "../imgs/paintFace_300x300.jpg";
@@ -39,20 +31,6 @@ export const navList = [
 ];
 
 export const photosOnSlider = [
-	{
-		id: 0,
-		title: "Tatuaże na rękach dzieci",
-		photo: fivethSliderPhoto,
-		photoMedium: fivethSliderPhotoW900,
-		photoSmall: fivethSliderPhotoW500,
-	},
-	{
-		id: 1,
-		title: "Rysowanie twarzy",
-		photo: thirdSliderPhoto,
-		photoMedium: thirdSliderPhotoW900,
-		photoSmall: thirdSliderPhotoW500,
-	},
 	{
 		id: 2,
 		title: "Bański mydlane",
@@ -80,7 +58,7 @@ export const animationList = [
 	{
 		id: 0,
 		photo: paintFace300,
-		title: "Artystyczne malowanie twarzy",
+		title: "Artystyczne malowanie ciała i brzucha ciążowego",
 		shortDescription:
 			"Malowanie twarzy dzieciom podczas imprez firmowych, prywatnych i innych. Malowanie twarzy dorosłym podczas np. wieczorów panieńskich czy innych podobnych przyjęć tematycznych. Fluo party dla dzieci i dorosłych.",
 		description:
@@ -118,7 +96,7 @@ export const animationList = [
 		photo: balls300,
 		title: "Kącik zabaw dla najmłodszych",
 		shortDescription:
-			"Przestrzeń z dużymi klockami konstrukcyjnymi. Świetna alternatywa dla osób, które są nieśmiałe i nie chcą uczestniczyć w zabawach wspólnych. Można zbudować wielką wieżę, domek lub inne kształty",
+			"Przestrzeń z dużymi klockami konstrukcyjnymi. Świetna alternatywa dla osób, które są nieśmiałe i nie chcą uczestniczyć w zabawach wspólnych. Można zbudować wielką wieżę, domek lub inne kształty.",
 
 		description:
 			"Kącik, w którym tworzę przestrzeń dla mniejszych dzieci, ale nie tylko. Do wykorzystania klocki budowlane giganty, które służą do tworzenia różnorodnych konstrukcji, także jeżdżących. Oferujemy również zestaw kolorowych słomek-patyczków, dzięki którym dziecko zamieni się w małego architekta, pobudzi wyobraźnię i rozwinie zdolności konstruowania.",

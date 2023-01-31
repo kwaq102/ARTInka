@@ -12,28 +12,31 @@ import { Fade } from "react-awesome-reveal/dist/index.js";
 const Header = () => {
 	const settings = {
 		autoplay: true,
-		autoplaySpeed: 10000,
-		speed: 3000,
+		autoplaySpeed: 4000,
+		speed: 700,
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
+		// arrows: false,
 	};
 
 	const photos = photosOnSlider.map(photo => (
-		<picture>
-			<source
-				class="img-slider"
-				media="(max-width: 500px)"
-				srcset={photo.photoSmall}
-			/>
-			<source
-				class="img-slider"
-				media="(max-width: 900px)"
-				srcset={photo.photoMedium}
-			/>
-			<img class="img-slider" src={photo.photo} alt={photo.title} />
-		</picture>
+		<div>
+			<picture>
+				<source
+					class="img-slider"
+					media="(max-width: 500px)"
+					srcset={photo.photoSmall}
+				/>
+				<source
+					class="img-slider"
+					media="(max-width: 900px)"
+					srcset={photo.photoMedium}
+				/>
+				<img class="img-slider" src={photo.photo} alt={photo.title} />
+			</picture>
+		</div>
 	));
 
 	return (
@@ -46,9 +49,7 @@ const Header = () => {
 					</Fade>
 				</h1>
 
-				<Fade>
-					<Slider {...settings}>{photos}</Slider>
-				</Fade>
+				<Slider {...settings}>{photos}</Slider>
 			</div>
 		</header>
 	);

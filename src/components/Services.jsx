@@ -18,7 +18,7 @@ const Services = () => {
 					</h2>
 					<div>
 						<p>
-							ARTinka zajmuję się głównie <strong>malowaniem twarzy</strong> na
+							ARTinka zajmuje się głównie <strong>malowaniem twarzy</strong> na
 							różnego rodzaju imprezach tematycznych. Możesz wynająć mnie na:{" "}
 						</p>
 						<ul>

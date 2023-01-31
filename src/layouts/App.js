@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import "../styles/App.css";
 import Footer from "./Footer";
@@ -9,16 +9,8 @@ const App = () => {
 	const [showIconBurger, setShowIconBurger] = useState(true);
 
 	const hiddenNavigation = e => {
-		console.log(window);
 		if (!showIconBurger) {
-			if (
-				!(
-					e.target.className === "navigation-list" ||
-					e.target.className === "nav-item-link" ||
-					e.target.className === "nav-item-link active"
-				)
-			) {
-				console.log("działą");
+			if (!(e.target.className === "navigation-list")) {
 				setShowIconBurger(true);
 			}
 		}
