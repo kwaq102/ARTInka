@@ -37,6 +37,42 @@ import photo18_min from "../imgs/gallery/gallery18_w300.jpg";
 import photo19 from "../imgs/gallery/gallery19_normal.jpg";
 import photo19_min from "../imgs/gallery/gallery19_w300.jpg";
 
+import photo20 from "../imgs/gallery/gallery20.jpg";
+import photo20_min from "../imgs/gallery/gallery20_w300.jpg";
+import photo21 from "../imgs/gallery/gallery21.jpg";
+import photo21_min from "../imgs/gallery/gallery21_w300.jpg";
+import photo22 from "../imgs/gallery/gallery22.jpg";
+import photo22_min from "../imgs/gallery/gallery22_w300.jpg";
+import photo23 from "../imgs/gallery/gallery23.jpg";
+import photo23_min from "../imgs/gallery/gallery23_w300.jpg";
+import photo24 from "../imgs/gallery/gallery24.jpg";
+import photo24_min from "../imgs/gallery/gallery24_w300.jpg";
+import photo25 from "../imgs/gallery/gallery25.jpg";
+import photo25_min from "../imgs/gallery/gallery25_w300.jpg";
+
+import photo26 from "../imgs/gallery/gallery26.jpg";
+import photo26_min from "../imgs/gallery/gallery26_w300.jpg";
+import photo27 from "../imgs/gallery/gallery27.jpg";
+import photo27_min from "../imgs/gallery/gallery27_w300.jpg";
+import photo28 from "../imgs/gallery/gallery28.jpg";
+import photo28_min from "../imgs/gallery/gallery28_w300.jpg";
+import photo29 from "../imgs/gallery/gallery29.jpg";
+import photo29_min from "../imgs/gallery/gallery29_w300.jpg";
+import photo30 from "../imgs/gallery/gallery30.jpg";
+import photo30_min from "../imgs/gallery/gallery30_w300.jpg";
+import photo31 from "../imgs/gallery/gallery31.jpg";
+import photo31_min from "../imgs/gallery/gallery31_w300.jpg";
+import photo32 from "../imgs/gallery/gallery32.jpg";
+import photo32_min from "../imgs/gallery/gallery32_w300.jpg";
+import photo33 from "../imgs/gallery/gallery33.jpg";
+import photo33_min from "../imgs/gallery/gallery33_w300.jpg";
+import photo34 from "../imgs/gallery/gallery34.jpg";
+import photo34_min from "../imgs/gallery/gallery34_w300.jpg";
+import photo35 from "../imgs/gallery/gallery35.jpg";
+import photo35_min from "../imgs/gallery/gallery35_w300.jpg";
+import photo36 from "../imgs/gallery/gallery36.jpg";
+import photo36_min from "../imgs/gallery/gallery36_w300.jpg";
+
 export const photos = [
 	{
 		id: 1,
@@ -152,5 +188,108 @@ export const photos = [
 		link: photo19_min,
 		linkBig: photo19,
 		text: "Description of image is here image4",
+	},
+	{
+		id: 20,
+		link: photo20_min,
+		linkBig: photo20,
+		text: "Description of image is here image4",
+	},
+	{
+		id: 21,
+		link: photo21_min,
+		linkBig: photo21,
+		text: "Description of image is here image21",
+	},
+	{
+		id: 22,
+		link: photo22_min,
+		linkBig: photo22,
+		text: "Description of image is here imag22",
+	},
+	{
+		id: 23,
+		link: photo23_min,
+		linkBig: photo23,
+		text: "Description of image is here imag23",
+	},
+	{
+		id: 24,
+		link: photo24_min,
+		linkBig: photo24,
+		text: "Description of image is here imag24",
+	},
+	{
+		id: 25,
+		link: photo25_min,
+		linkBig: photo25,
+		text: "Description of image is here imag25",
+	},
+
+	{
+		id: 26,
+		link: photo26_min,
+		linkBig: photo26,
+		text: "Description of image is here imag26",
+	},
+	{
+		id: 27,
+		link: photo27_min,
+		linkBig: photo27,
+		text: "Description of image is here imag27",
+	},
+	{
+		id: 28,
+		link: photo28_min,
+		linkBig: photo28,
+		text: "Description of image is here imag28",
+	},
+	{
+		id: 29,
+		link: photo29_min,
+		linkBig: photo29,
+		text: "Description of image is here imag29",
+	},
+	{
+		id: 30,
+		link: photo30_min,
+		linkBig: photo30,
+		text: "Description of image is here imag30",
+	},
+	{
+		id: 31,
+		link: photo31_min,
+		linkBig: photo31,
+		text: "Description of image is here imag31",
+	},
+	{
+		id: 32,
+		link: photo32_min,
+		linkBig: photo32,
+		text: "Description of image is here imag32",
+	},
+	{
+		id: 33,
+		link: photo33_min,
+		linkBig: photo33,
+		text: "Description of image is here imag33",
+	},
+	{
+		id: 34,
+		link: photo34_min,
+		linkBig: photo34,
+		text: "Description of image is here imag34",
+	},
+	{
+		id: 35,
+		link: photo35_min,
+		linkBig: photo35,
+		text: "Description of image is here imag35",
+	},
+	{
+		id: 36,
+		link: photo36_min,
+		linkBig: photo36,
+		text: "Description of image is here imag36",
 	},
 ];

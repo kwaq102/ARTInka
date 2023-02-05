@@ -5,7 +5,7 @@ import { certificates } from "../data/certificates";
 
 import "../styles/Certificates.css";
 
-const images = certificates.map((el) => el.certificate);
+const images = certificates.map(el => el.certificate);
 
 class Certificates extends Component {
 	constructor(props) {
@@ -19,13 +19,19 @@ class Certificates extends Component {
 
 	render() {
 		const { photoIndex, isOpen } = this.state;
-		const photos = certificates.map((item) => (
+		const photos = certificates.map(item => (
 			<div className="certificate-box">
 				<img
 					src={item.certificate}
 					alt={item.title}
 					key={item.id}
-					onClick={() => this.setState({ isOpen: true })}
+					data-id={item.id}
+					onClick={e =>
+						this.setState({
+							photoIndex: e.target.getAttribute("data-id") - 1,
+							isOpen: true,
+						})
+					}
 				/>
 			</div>
 		));
