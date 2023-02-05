@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import phone from "../imgs/icons/phone-solid.svg";
 import { navList } from "../data/data.js";
-
 import logo from "../imgs/logo.png";
-
 import "../styles/Navigation.css";
 import Burger from "../components/Burger";
 
@@ -15,7 +13,7 @@ const Navigation = ({ showIconBurger, setShowIconBurger }) => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const menu = navList.map((el) => (
+	const menu = navList.map(el => (
 		<li
 			key={el.navName}
 			className={"nav-item"}
@@ -35,7 +33,9 @@ const Navigation = ({ showIconBurger, setShowIconBurger }) => {
 					setShowIconBurger={setShowIconBurger}
 				/>
 				<div className="logo">
-					<img src={logo} alt="logo artinka" />
+					<NavLink to={"/"} end={true} className="logo-link">
+						<img src={logo} alt="logo artinka" />
+					</NavLink>
 					<div className="phone-in-nav">
 						<a href="tel: +48722794057">
 							<img src={phone} alt="telefon" />

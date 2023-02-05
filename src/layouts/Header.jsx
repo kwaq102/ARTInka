@@ -1,24 +1,23 @@
 import React from "react";
 
 import { photosOnSlider } from "../data/data";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-import "../styles/Header.css";
 import { Fade } from "react-awesome-reveal/dist/index.js";
+import "../styles/Header.css";
+
+const randomInitialPhoto = () =>
+	Math.floor(Math.random() * photosOnSlider.length);
 
 const Header = () => {
 	const settings = {
 		autoplay: true,
-		autoplaySpeed: 4000,
-		speed: 700,
+		speed: 5000,
 		infinite: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		initialSlide: 0,
-		// arrows: false,
+		initialSlide: randomInitialPhoto(),
 	};
 
 	const photos = photosOnSlider.map(photo => (
@@ -48,7 +47,6 @@ const Header = () => {
 						<strong>ARTinka - Justyna Baran</strong>
 					</Fade>
 				</h1>
-
 				<Slider {...settings}>{photos}</Slider>
 			</div>
 		</header>

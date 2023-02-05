@@ -7,7 +7,7 @@
 .header h1 {
 	position: absolute;
 	width: 100%;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: rgba(0, 0, 0, 0.2);
@@ -43,6 +43,7 @@
 .slick-prev {
 	z-index: 5;
 	right: 5%;
+	top: 40%;
 	cursor: pointer;
 }
 
