@@ -58,7 +58,7 @@ export const animationList = [
 	{
 		id: 0,
 		photo: paintFace300,
-		title: "Artystyczne malowanie ciała i brzucha ciążowego",
+		title: "Artystyczne malowanie ciała",
 		shortDescription:
 			"Malowanie twarzy dzieciom podczas imprez firmowych, prywatnych i innych. Malowanie twarzy dorosłym podczas np. wieczorów panieńskich czy innych podobnych przyjęć tematycznych. Fluo party dla dzieci i dorosłych.",
 		description:

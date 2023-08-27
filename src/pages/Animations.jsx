@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { animationList } from "../data/data";
 import Header from "../layouts/Header";
@@ -9,7 +9,7 @@ import "../styles/Animations.css";
 import CardFront from "../components/Cards/CardFront";
 
 const Animations = () => {
-	const list = animationList.map((el) => {
+	const list = animationList.map(el => {
 		return (
 			<CardFront
 				photo={el.photo}
@@ -27,15 +27,6 @@ const Animations = () => {
 				<section className="animations">
 					<h2>W ofercie</h2>
 					{list}
-					<p>
-						<span>UWAGA!</span>
-						Artinka zajmuję się działalnością artystyczną, głównie malowaniem
-						twarzy. Nie jestem animatorem i nie prowadzę imprez- zamiast tego
-						tworzę tzw. stanowiska artystyczno-animacyjne, z których dzieci mogą
-						skorzystać w dowolnej chwili podczas zabawy. Współpracuję z firmami
-						animacyjnymi, z którymi świadczę wspólnie usługi, tworząc idealną i
-						niezapomnianą imprezę dla dzieci.
-					</p>
 				</section>
 				<DecorationInAnimationsPage />
 			</div>

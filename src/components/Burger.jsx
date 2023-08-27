@@ -4,13 +4,7 @@ import "../styles/Burger.css";
 import burger from "../imgs/icons/burger.svg";
 import arrow from "../imgs/icons/arrow-left.svg";
 
-const Burger = (props) => {
-	// const [showIconBurger, setShowIconBurger] = useState(true);
-
-	// const setIcon = () => {
-	// 	setShowIconBurger(!showIconBurger);
-	// };
-
+const Burger = props => {
 	return (
 		<div
 			className="menu-burger"

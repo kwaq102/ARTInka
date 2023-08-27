@@ -5,11 +5,6 @@ const CardFront = ({ photo, title, description, shortDescription }) => {
 
 	const cardClassName = card ? "card card-show" : "card";
 
-	// const showCard = () => {
-	// 	console.log(card);
-	// 	card === "card" ? setCard("card card-show") : setCard("card");
-	// 	console.log(card);
-	// };
 	return (
 		<div className="content-animation-box">
 			<div className={cardClassName}>

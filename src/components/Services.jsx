@@ -43,9 +43,9 @@ const Services = () => {
 				<div className="content-services">
 					<h2>W ofercie</h2>
 					<div>
-						<p>Oprócz malowania twarzy świadczę inne usługi eventowe:</p>
 						<ul className="list">
 							<li>artystyczne malowanie twarzy i ciała</li>
+							<li>malowanie brzucha ciążowego</li>
 							<li>tatuaże brokatowe</li>
 							<li>zaplatanie kolorowych warkoczyków</li>
 							<li>laser tag-laserowy paintball</li>

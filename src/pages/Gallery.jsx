@@ -37,7 +37,6 @@ class Gallery extends Component {
 		return (
 			<>
 				<Header />
-
 				<div className="page-gallery">
 					<h2 className="heading">Galeria</h2>
 					<div className="gallery">
