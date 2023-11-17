@@ -38,9 +38,6 @@ class Certificates extends Component {
 
 		return (
 			<section className="certificates">
-				{/* <button type="button" onClick={() => this.setState({ isOpen: true })}>
-                Open Lightbox
-                </button> */}
 				<div className="certificates-wrapper">
 					<h2 className="heading">Certyfikaty</h2>
 					<div className="certificates-gallery">

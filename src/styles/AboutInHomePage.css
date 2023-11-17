@@ -22,7 +22,8 @@
 }
 
 .content-about-in-home-page p {
-	line-height: 150%;
+	line-height: 200%;
+	letter-spacing: 0.2px;
 }
 
 .content-about-in-home-page p span {

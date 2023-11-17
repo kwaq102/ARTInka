@@ -17,12 +17,12 @@ const Advantages = () => {
 			<div className="content-advantages">
 				<h2 className="heading">Artinka to</h2>
 				<div className="advantage-box">
-					<img src={heart} alt="" />
+					<img src={heart} alt="Ikona serca" />
 					<h4>Pasja</h4>
 					<p>W swoją pracę wkładam całe serce.</p>
 				</div>
 				<div className="advantage-box">
-					<img src={balloon} alt="" />
+					<img src={balloon} alt="Ikona balonów" />
 					<h4>Świetna zabawa</h4>
 					<p>
 						Dzieci uwielbiają <strong>malowanie twarzy</strong>, a ich radość
@@ -30,12 +30,12 @@ const Advantages = () => {
 					</p>
 				</div>
 				<div className="advantage-box">
-					<img src={brain} alt="" />
+					<img src={brain} alt="Ikona kolorowego mózgu" />
 					<h4>Kreatywność</h4>
 					<p>Nigdy mi jej nie brakuje - dzieci ciągle mi jej dostarczają.</p>
 				</div>
 				<div className="advantage-box">
-					<img src={student} alt="" />
+					<img src={student} alt="Ikona kobiety" />
 					<h4>Profesjonalizm</h4>
 					<p>
 						<strong>Malowaniem twarzy</strong> zajmuję się od lat i stawiam na

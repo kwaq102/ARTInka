@@ -9,7 +9,7 @@ import logo from "../imgs/logo.png";
 import "../styles/Footer.css";
 
 const Footer = () => {
-	const menu = navList.map((el) => (
+	const menu = navList.map(el => (
 		<li key={el.navName} className={"footer-nav-item"}>
 			<NavLink to={el.path} end={el}>
 				{el.navName}
@@ -44,7 +44,7 @@ const Footer = () => {
 			</div>
 			<div className="policy">
 				<div className="wrapper-policy">
-					<p>ARTinka © 2022.</p>
+					<p>ARTinka © 2023.</p>
 					<p>
 						Projekt i wykonanie{" "}
 						<a href="https://gajewwwski.pl">gajewwwski.pl</a>

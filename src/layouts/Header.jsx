@@ -43,8 +43,10 @@ const Header = () => {
 			<div className="header">
 				<h1>
 					<Fade cascade direction="up">
-						<strong>Artystyczne malowanie twarzy</strong>
-						<strong>ARTinka - Justyna Baran</strong>
+						<span>
+							Artystyczne <strong>malowanie twarzy</strong>
+						</span>
+						<span>ARTinka - Justyna Baran</span>
 					</Fade>
 				</h1>
 				<Slider {...settings}>{photos}</Slider>

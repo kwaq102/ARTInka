@@ -36,7 +36,7 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="photos-services">
-					<img src={offer} alt="" />
+					<img src={offer} alt="Stanowisko do malowania twarz dla dzieci" />
 				</div>
 			</div>
 			<div className="wrapper-services">
@@ -62,7 +62,11 @@ const Services = () => {
 					</div>
 				</div>
 				<div className="photos-services">
-					<img src={offer2} alt="" className="left-img" />
+					<img
+						src={offer2}
+						alt="Pędzle do malowania twarzy."
+						className="left-img"
+					/>
 				</div>
 				<p className="text">
 					Każda z tych usług to dodatkowa atrakcja do Twojej imprezy.
